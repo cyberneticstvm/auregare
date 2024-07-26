@@ -20352,3 +20352,7 @@ Pagination Area CSS
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.text-justify{
+  text-align: justify !important;
+}

@@ -57,18 +57,12 @@
                                 <a href="https://bd.linkedin.com/" target="_blank">
                                     <i class="ri-linkedin-fill"></i>
                                 </a>
-                                <a href="https://www.youtube.com/" target="_blank">
-                                    <i class="ri-youtube-line"></i>
-                                </a>
-                                <a href="https://www.pinterest.com/" target="_blank">
-                                    <i class="ri-pinterest-line"></i>
-                                </a>
                             </div>
                         </li>
                         <li>
                             <div class="mail-info">
                                 <i class="ri-mail-line"></i>
-                                <a href="mailto:support@demo.com">support@demo.com</a>
+                                <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
                             </div>
                         </li>
                     </ul>
@@ -76,7 +70,7 @@
                 <div class="col-lg-5 col-md-5 text-end">
                     <div class="top-header-call-info">
                         <i class="ri-phone-line"></i>
-                        <a href="tel:00201068710594">+(002) 0106-8710-594</a>
+                        <a href="tel:+971506258760">+971 50 625 8760</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +78,7 @@
     </div>
     <!-- End Top Header Area -->
 
-    @include("nav")
+    @include("web.nav")
     @yield("content")
 
     <!-- Start Footer Area -->
@@ -95,10 +89,10 @@
                     <div class="single-footer-widget pe-3">
                         <div class="widget-logo">
                             <a href="index.html">
-                                <img src="{{ asset('/web/assets/images/logo2.png') }}" alt="logo2">
+                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" width="60%" alt="Aurega Real Estate Logo">
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, elit dollar consectetur adipiscing elit. Diam lectus purus ultricies neque.</p>
+                        <p>To be the leading real estate advisory firm in Dubai, renowned for our integrity, innovation, and commitment to delivering exceptional investment outcomes for our clients.</p>
                         <div class="widget-social">
                             <a href="https://www.facebook.com/" target="_blank">
                                 <i class="ri-facebook-fill"></i>
@@ -112,12 +106,6 @@
                             <a href="https://bd.linkedin.com/" target="_blank">
                                 <i class="ri-linkedin-fill"></i>
                             </a>
-                            <a href="https://www.youtube.com/" target="_blank">
-                                <i class="ri-youtube-line"></i>
-                            </a>
-                            <a href="https://www.pinterest.com/" target="_blank">
-                                <i class="ri-pinterest-line"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -127,11 +115,11 @@
                             <div class="single-footer-widget ps-3">
                                 <h3>Company</h3>
                                 <ul class="custom-links">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
-                                    <li><a href="customers-review.html">Our Reviews</a></li>
-                                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('index') }}">Terms & Conditions</a></li>
+                                    <li><a href="{{ route('index') }}">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -139,11 +127,11 @@
                             <div class="single-footer-widget ps-3">
                                 <h3>Resources</h3>
                                 <ul class="custom-links">
-                                    <li><a href="property-grid.html">Apartments</a></li>
-                                    <li><a href="property-grid.html">Villa</a></li>
-                                    <li><a href="property-grid.html">Sell or Buy</a></li>
-                                    <li><a href="property-grid.html">New Apartment</a></li>
-                                    <li><a href="agents.html">Our Agents</a></li>
+                                    <li><a href="{{ route('index') }}">Apartments</a></li>
+                                    <li><a href="{{ route('index') }}">Villa</a></li>
+                                    <li><a href="{{ route('index') }}">Sell or Buy</a></li>
+                                    <li><a href="{{ route('index') }}">New Apartment</a></li>
+                                    <li><a href="{{ route('index') }}">Our Agents</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -151,11 +139,10 @@
                             <div class="single-footer-widget ps-3">
                                 <h3>Quick Links</h3>
                                 <ul class="custom-links">
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="what-we-do.html">What We Do</a></li>
-                                    <li><a href="customers-review.html">Testimonial</a></li>
-                                    <li><a href="blog-grid.html">Blog</a></li>
-                                    <li><a href="neighborhood.html">Neighborhood</a></li>
+                                    <li><a href="{{ route('index') }}">Pricing</a></li>
+                                    <li><a href="{{ route('index') }}">What We Do</a></li>
+                                    <li><a href="{{ route('index') }}">Testimonial</a></li>
+                                    <li><a href="{{ route('index') }}">Neighborhood</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -165,19 +152,19 @@
                                 <ul class="info-list">
                                     <li>
                                         <span>Address:</span>
-                                        45/15 New alsala Avenew Booston town, Austria
+                                        #106, Bay Square 11, Business Bay, Dubai, UAE
                                     </li>
                                     <li>
                                         <span>Email:</span>
-                                        <a href="mailto:support@demo.com">support@demo.com</a>
+                                        <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
                                     </li>
                                     <li>
-                                        <span>Phone:</span>
-                                        <a href="tel:00201068710594">+(002) 0106-8710-594</a>
+                                        <span>Mobile:</span>
+                                        <a href="tel:+971506258760">+971 50 625 8760</a>
                                     </li>
                                     <li>
-                                        <span>Fax:</span>
-                                        <a href="tel:01068710594">+0106-8710-594</a>
+                                        <span>Land Phone:</span>
+                                        <a href="tel:+971043494444">+971 04 349 4444</a>
                                     </li>
                                 </ul>
                             </div>
@@ -187,7 +174,7 @@
             </div>
             <div class="copyright-area">
                 <p>
-                    Copyright <span>Andora</span> All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                    Copyright <span>Aurega Real Estate</span> All Rights Reserved by <a href="https://auregagroup.com" target="_blank">Aurega Group</a>
                 </p>
             </div>
         </div>
