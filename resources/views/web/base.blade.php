@@ -17,7 +17,7 @@
 
     <title>Aurega - Real Estate</title>
 
-    <link rel="icon" type="image/png" href="{{ asset('/web/assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('/web/assets/images/favicon.ico') }}">
 </head>
 
 <body>
