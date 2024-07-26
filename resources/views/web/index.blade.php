@@ -907,7 +907,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Arjun Patel, India</h3>
@@ -928,7 +928,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Fatima Al-Mansouri, UAE</h3>
@@ -949,7 +949,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Rajesh Kumar, India</h3>
@@ -970,7 +970,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Ahmed Hassan, UAE</h3>
@@ -991,7 +991,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Priya Nair, India</h3>
@@ -1012,7 +1012,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user2.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Saeed Al-Farsi, UAE</h3>
@@ -1033,7 +1033,7 @@
                     <div class="testimonial-card">
                         <div class="info">
                             <div class="image">
-                                <img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">
+                                <!--<img src="{{ asset('/web/assets/images/user/user3.png') }}" alt="image">-->
                             </div>
                             <div class="title">
                                 <h3>Anjali Sharma, India</h3>
