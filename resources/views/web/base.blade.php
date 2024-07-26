@@ -45,17 +45,20 @@
                     <ul class="top-header-info-with-social">
                         <li>
                             <div class="social">
-                                <a href="https://www.facebook.com/" target="_blank">
+                                <a href="https://www.facebook.com/auregagroup/" target="_blank">
                                     <i class="ri-facebook-fill"></i>
                                 </a>
-                                <a href="https://twitter.com/" target="_blank">
+                                <a href="https://x.com/Auregagroup" target="_blank">
                                     <i class="ri-twitter-x-line"></i>
                                 </a>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/auregagroup/ target=" _blank">
                                     <i class="ri-instagram-fill"></i>
                                 </a>
-                                <a href="https://bd.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank">
                                     <i class="ri-linkedin-fill"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@auregagroup7318" target="_blank">
+                                    <i class="ri-youtube-line"></i>
                                 </a>
                             </div>
                         </li>
@@ -94,17 +97,20 @@
                         </div>
                         <p>To be the leading real estate advisory firm in Dubai, renowned for our integrity, innovation, and commitment to delivering exceptional investment outcomes for our clients.</p>
                         <div class="widget-social">
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a href="https://www.facebook.com/auregagroup/" target="_blank">
                                 <i class="ri-facebook-fill"></i>
                             </a>
-                            <a href="https://twitter.com/" target="_blank">
+                            <a href="https://x.com/Auregagroup" target="_blank">
                                 <i class="ri-twitter-x-line"></i>
                             </a>
-                            <a href="https://www.instagram.com/" target="_blank">
+                            <a href="https://www.instagram.com/auregagroup/" target="_blank">
                                 <i class="ri-instagram-fill"></i>
                             </a>
-                            <a href="https://bd.linkedin.com/" target="_blank">
+                            <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank">
                                 <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@auregagroup7318" target="_blank">
+                                <i class="ri-youtube-line"></i>
                             </a>
                         </div>
                     </div>
