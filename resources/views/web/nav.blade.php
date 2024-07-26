@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-xl" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('index') }}">
-            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.webp') }}" alt="Aurega Real Estate Logo">
+            <img src="{{ asset('/web/assets/images/aurega-dark-logo.webp') }}" alt="Aurega Real Estate Logo">
         </a>
         <form class="search-form">
             <input type="search" class="search-field" placeholder="Search property">

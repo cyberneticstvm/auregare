@@ -11,6 +11,11 @@ class WebController extends Controller
         return view('web.index');
     }
 
+    function property()
+    {
+        return view('web.property');
+    }
+
     function about()
     {
         return view('web.about');

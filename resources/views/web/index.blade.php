@@ -249,7 +249,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Residential</a>
+                            <a href="{{ route('property') }}">Residential</a>
                         </h3>
                         <span>(26 Properties)</span>
                     </div>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Commercial</a>
+                            <a href="{{ route('property') }}">Commercial</a>
                         </h3>
                         <span>(33 Properties)</span>
                     </div>
@@ -275,7 +275,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Vacation & Resort</a>
+                            <a href="{{ route('property') }}">Vacation & Resort</a>
                         </h3>
                         <span>(37 Properties)</span>
                     </div>
@@ -288,7 +288,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">The Land</a>
+                            <a href="{{ route('property') }}">The Land</a>
                         </h3>
                         <span>(54 Properties)</span>
                     </div>
@@ -301,7 +301,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">New Construction</a>
+                            <a href="{{ route('property') }}">New Construction</a>
                         </h3>
                         <span>(123 Properties)</span>
                     </div>
@@ -314,7 +314,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Luxury Estate</a>
+                            <a href="{{ route('property') }}">Luxury Estate</a>
                         </h3>
                         <span>(355 Properties)</span>
                     </div>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Eco-Friendly</a>
+                            <a href="{{ route('property') }}">Eco-Friendly</a>
                         </h3>
                         <span>(89 Properties)</span>
                     </div>
@@ -340,7 +340,7 @@
                     </div>
                     <div class="content">
                         <h3>
-                            <a href="property-grid.html">Historic Properties</a>
+                            <a href="{{ route('property') }}">Historic Properties</a>
                         </h3>
                         <span>(17 Properties)</span>
                     </div>
@@ -367,9 +367,9 @@
                     <p class="text-justify">Explore our extensive portfolio of properties across prime locations in Dubai, meticulously curated to meet diverse investment objectives. Whether you're a seasoned investor or a first-time buyer, Aurega Real Estate is committed to delivering tailored solutions that align with your financial goals and aspirations.</p>
                     <p class="text-justify">Benefit from our proactive market insights and proactive investment strategies designed to maximize returns while mitigating risks. Discover the Aurega difference today and embark on your journey towards successful property investments in Dubai.</p>
                     <div class="inner">
-                        <h3>Sell Your Property</h3>
+                        <h3><a href="{{ route('contact') }}">Sell Your Property</a></h3>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et mauris eget ornare.</p>-->
-                        <a href="property-details.html" class="sell-btn">
+                        <a href="{{ route('property') }}" class="sell-btn">
                             <img src="{{ asset('/web/assets/images/sell/arrow.svg') }}" alt="arrow">
                         </a>
                     </div>
@@ -393,9 +393,9 @@
                     <h2 class="mt-3">Vision</h2>
                     <p class="text-justify">To be the leading real estate advisory firm in Dubai, renowned for our integrity, innovation, and commitment to delivering exceptional investment outcomes for our clients.</p>
                     <div class="inner">
-                        <h3>Rent A Property</h3>
+                        <h3><a href="{{ route('contact') }}">Rent A Property</a></h3>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et mauris eget ornare.</p>-->
-                        <a href="property-details.html" class="rent-btn">
+                        <a href="{{ route('property') }}" class="rent-btn">
                             <img src="{{ asset('/web/assets/images/rent/arrow.svg') }}" alt="arrow">
                         </a>
                     </div>
@@ -529,12 +529,12 @@
             <div class="col-xl-4 col-md-6">
                 <div class="properties-item">
                     <div class="properties-image">
-                        <a href="property-details.html">
+                        <a href="{{ route('property') }}">
                             <img src="{{ asset('/web/assets/images/properties/properties2.jpg') }}" alt="image">
                         </a>
                         <ul class="action">
                             <li>
-                                <a href="property-grid.html" class="featured-btn">Featured</a>
+                                <a href="" class="featured-btn">Featured</a>
                             </li>
                             <li>
                                 <div class="media">
@@ -545,10 +545,10 @@
                         </ul>
                         <ul class="link-list">
                             <li>
-                                <a href="property-grid.html" class="link-btn">Apartment</a>
+                                <a href="{{ route('property') }}" class="link-btn">Apartment</a>
                             </li>
                             <li>
-                                <a href="property-grid.html" class="link-btn">For Sale</a>
+                                <a href="{{ route('property') }}" class="link-btn">For Sale</a>
                             </li>
                         </ul>
                         <ul class="info-list">
@@ -582,11 +582,11 @@
                         <div class="top">
                             <div class="title">
                                 <h3>
-                                    <a href="property-details.html">Heritage Buildings</a>
+                                    <a href="{{ route('property') }}">Heritage Buildings</a>
                                 </h3>
                                 <span>194 Mercer Street, NY 10012, USA</span>
                             </div>
-                            <div class="price">$95,000</div>
+                            <div class="price"></div>
                         </div>
                         <div class="bottom">
                             <div class="user">
@@ -641,7 +641,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="properties-item">
                     <div class="properties-image">
-                        <a href="property-details.html">
+                        <a href="{{ route('property') }}">
                             <img src="{{ asset('/web/assets/images/properties/properties3.jpg') }}" alt="image">
                         </a>
                         <ul class="action">
@@ -654,10 +654,10 @@
                         </ul>
                         <ul class="link-list">
                             <li>
-                                <a href="property-grid.html" class="link-btn">Apartment</a>
+                                <a href="{{ route('property') }}" class="link-btn">Apartment</a>
                             </li>
                             <li>
-                                <a href="property-grid.html" class="link-btn">For Sale</a>
+                                <a href="{{ route('property') }}" class="link-btn">For Sale</a>
                             </li>
                         </ul>
                         <ul class="info-list">
@@ -691,11 +691,11 @@
                         <div class="top">
                             <div class="title">
                                 <h3>
-                                    <a href="property-details.html">Beachfront Properties</a>
+                                    <a href="{{ route('property') }}">Beachfront Properties</a>
                                 </h3>
                                 <span>194 Mercer Street, NY 10012, USA</span>
                             </div>
-                            <div class="price">$55,000</div>
+                            <div class="price"></div>
                         </div>
                         <div class="bottom">
                             <div class="user">
@@ -750,12 +750,12 @@
             <div class="col-xl-4 col-md-6">
                 <div class="properties-item">
                     <div class="properties-image">
-                        <a href="property-details.html">
+                        <a href="{{ route('property') }}">
                             <img src="{{ asset('/web/assets/images/properties/properties1.jpg') }}" alt="image">
                         </a>
                         <ul class="action">
                             <li>
-                                <a href="property-grid.html" class="featured-btn">Featured</a>
+                                <a href="{{ route('property') }}" class="featured-btn">Featured</a>
                             </li>
                             <li>
                                 <div class="media">
@@ -766,10 +766,10 @@
                         </ul>
                         <ul class="link-list">
                             <li>
-                                <a href="property-grid.html" class="link-btn">Apartment</a>
+                                <a href="{{ route('property') }}" class="link-btn">Apartment</a>
                             </li>
                             <li>
-                                <a href="property-grid.html" class="link-btn">For Sale</a>
+                                <a href="{{ route('property') }}" class="link-btn">For Sale</a>
                             </li>
                         </ul>
                         <ul class="info-list">
@@ -803,11 +803,11 @@
                         <div class="top">
                             <div class="title">
                                 <h3>
-                                    <a href="property-details.html">Luxury Apartments</a>
+                                    <a href="{{ route('property') }}">Luxury Apartments</a>
                                 </h3>
                                 <span>194 Mercer Street, NY 10012, USA</span>
                             </div>
-                            <div class="price">$77,000</div>
+                            <div class="price"></div>
                         </div>
                         <div class="bottom">
                             <div class="user">

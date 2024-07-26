@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('/web/assets/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/scrollCue.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/remixicon.css') }}">
+    <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/responsive.css') }}">
 
@@ -24,7 +25,7 @@
     <!-- Start Preloader Area -->
     <div class="preloader-area text-center position-fixed top-0 bottom-0 start-0 end-0" id="preloader">
         <div class="loader position-absolute start-0 end-0">
-            <img src="{{ asset('/web/assets/images/favicon.png') }}" alt="favicon">
+            <img src="{{ asset('/web/assets/images/aurega-dark-logo.webp') }}" alt="favicon">
             <div class="waviy position-relative">
                 <span class="d-inline-block">A</span>
                 <span class="d-inline-block">U</span>
@@ -36,7 +37,22 @@
         </div>
     </div>
     <!-- End Preloader Area -->
-
+    <!-- Whatsapp -->
+    <div class="mystickyelements-fixed mystickyelements-position-right mystickyelements-position-screen-center mystickyelements-position-mobile-right mystickyelements-on-hover mystickyelements-size-medium mystickyelements-mobile-size-medium mystickyelements-templates-default">
+        <div class="mystickyelement-lists-wrap">
+            <ul class="mystickyelements-lists mystickyno-minimize">
+                <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #0C9">
+                        <a href="https://api.whatsapp.com/send?phone=971506258760&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i></a>
+                    </span>
+                    <span class="mystickyelements-social-text " style="background: #0C9;">
+                        <a href="https://api.whatsapp.com/send?phone=971506258760&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Whatsapp -->
     <!-- Start Top Header Area -->
     <div class="top-header-area">
         <div class="container-fluid">
@@ -65,13 +81,13 @@
                         <li>
                             <div class="mail-info">
                                 <i class="ri-mail-line"></i>
-                                <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
+                                <a href="mailto:are@auregagroup.com" class="text-dark">are@auregagroup.com</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-5 col-md-5 text-end">
-                    <div class="top-header-call-info">
+                    <div class="top-header-call-info bg-dark">
                         <i class="ri-phone-line"></i>
                         <a href="tel:+971506258760">+971 50 625 8760</a>
                     </div>
@@ -211,6 +227,8 @@
     <script src="{{ asset('/web/assets/js/fslightbox.min.js') }}"></script>
     <script src="{{ asset('/web/assets/js/simpleParallax.min.js') }}"></script>
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="{{ asset('/web/assets/js/mystickyelement.js') }}"></script>
 </body>
 
 </html>
