@@ -1,49 +1,32 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Link of CSS Files -->
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/scrollCue.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/remixicon.css') }}">
-    <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/responsive.css') }}">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aurega - Real Estate</title>
-
-    <link rel="icon" type="image/png" href="{{ asset('/web/assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/web/assets/images/logo/favicon.ico') }}">
+    <!-- fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/plugins/fontawesome-6.css') }}">
+    <!-- swiper Css 10.2.0 -->
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/plugins/swiper.min.css') }}">
+    <!-- Bootstrap 5.0.2 -->
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/vendor/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/vendor/bootstrap.min.css') }}">
+    <!-- metismenu scss -->
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/vendor/metismenu.css') }}">
+    <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
 </head>
 
-<body>
-
-    <!-- Start Preloader Area -->
-    <div class="preloader-area text-center position-fixed top-0 bottom-0 start-0 end-0" id="preloader">
-        <div class="loader position-absolute start-0 end-0">
-            <img src="{{ asset('/web/assets/images/aurega-dark-logo.webp') }}" alt="favicon">
-            <div class="waviy position-relative">
-                <span class="d-inline-block">A</span>
-                <span class="d-inline-block">U</span>
-                <span class="d-inline-block">R</span>
-                <span class="d-inline-block">E</span>
-                <span class="d-inline-block">G</span>
-                <span class="d-inline-block">A</span>
-            </div>
-        </div>
-    </div>
-    <!-- End Preloader Area -->
-    <!-- Whatsapp -->
+<body class="index-two">
     <div class="mystickyelements-fixed mystickyelements-position-right mystickyelements-position-screen-center mystickyelements-position-mobile-right mystickyelements-on-hover mystickyelements-size-medium mystickyelements-mobile-size-medium mystickyelements-templates-default">
         <div class="mystickyelement-lists-wrap">
             <ul class="mystickyelements-lists mystickyno-minimize">
                 <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
                     <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #0C9">
-                        <a href="https://api.whatsapp.com/send?phone=971506258760&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=971506258760&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
                     </span>
                     <span class="mystickyelements-social-text " style="background: #0C9;">
                         <a href="https://api.whatsapp.com/send?phone=971506258760&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
@@ -53,182 +36,187 @@
         </div>
     </div>
     <!-- End Whatsapp -->
-    <!-- Start Top Header Area -->
-    <div class="top-header-area">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-7 col-md-7">
-                    <ul class="top-header-info-with-social">
-                        <li>
-                            <div class="social">
-                                <a href="https://www.facebook.com/auregagroup/" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                                <a href="https://x.com/Auregagroup" target="_blank">
-                                    <i class="ri-twitter-x-line"></i>
-                                </a>
-                                <a href="https://www.instagram.com/auregagroup/ target=" _blank">
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
-                                </a>
-                                <a href="https://www.youtube.com/@auregagroup7318" target="_blank">
-                                    <i class="ri-youtube-line"></i>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="mail-info">
-                                <i class="ri-mail-line"></i>
-                                <a href="mailto:are@auregagroup.com" class="text-dark">are@auregagroup.com</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-md-5 text-end">
-                    <div class="top-header-call-info bg-dark">
-                        <i class="ri-phone-line"></i>
-                        <a href="tel:+971506258760">+971 50 625 8760</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Top Header Area -->
-
     @include("web.nav")
+
     @yield("content")
 
-    <!-- Start Footer Area -->
-    <footer class="footer-area pt-120">
+    <!-- rts footer area start -->
+    <div class="rts-footer-area bg-light social-jumpanimation">
         <div class="container">
-            <div class="row justify-content-center" data-cues="slideInUp">
-                <div class="col-xl-3 col-md-12">
-                    <div class="single-footer-widget pe-3">
-                        <div class="widget-logo">
-                            <a href="index.html">
-                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" width="60%" alt="Aurega Real Estate Logo">
-                            </a>
-                        </div>
-                        <p>To be the leading real estate advisory firm in Dubai, renowned for our integrity, innovation, and commitment to delivering exceptional investment outcomes for our clients.</p>
-                        <div class="widget-social">
-                            <a href="https://www.facebook.com/auregagroup/" target="_blank">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                            <a href="https://x.com/Auregagroup" target="_blank">
-                                <i class="ri-twitter-x-line"></i>
-                            </a>
-                            <a href="https://www.instagram.com/auregagroup/" target="_blank">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                            <a href="https://www.youtube.com/@auregagroup7318" target="_blank">
-                                <i class="ri-youtube-line"></i>
-                            </a>
-                        </div>
+            <div class="row g-5   ptb--100 ptb_sm--60 ptb_md--80">
+                <div class="col-lg-4">
+                    <!-- footer-two wrapper -->
+                    <div class="footer-two-main-wrapper">
+                        <a href="#" class="logo">
+                            <img src="{{ asset('/web/assets/images/logo/aurega-dark-logo.webp') }}" alt="logo">
+                        </a>
+                        <!-- social style two -->
+                        <ul class="social-style-two-wrapper social-anim">
+                            <li><a class="counter__anim" href="https://www.facebook.com/auregagroup/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="counter__anim" href="https://x.com/Auregagroup"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="counter__anim" href="https://www.youtube.com/@auregagroup7318"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a class="counter__anim" href="https://www.linkedin.com/company/auregaglobal/"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a class="counter__anim" href="https://www.instagram.com/auregagroup/"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                        <!-- social style two end -->
                     </div>
+                    <!-- footer-two wrapper end -->
                 </div>
-                <div class="col-xl-9 col-md-12">
-                    <div class="row justify-content-center" data-cues="slideInUp">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-footer-widget ps-3">
-                                <h3>Company</h3>
-                                <ul class="custom-links">
+                <div class="col-lg-8">
+                    <div class="footer-two-main-wrapper-right">
+                        <!-- single footer two wozed -->
+                        <div class="single-footer-wized">
+                            <div class="location-information">
+                                <div class="location">
+                                    <p>#106, Bay Square 11, Business Bay, <br>
+                                        Dubai, UAE</p>
+                                </div>
+                                <div class="contact-call">
+                                    <a href="tel:+971506258760">+971 50 625 8760</a>
+                                    <span>Call us for support</span>
+                                </div>
+                                <div class="contact-call">
+                                    <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
+                                    <span>Email us for query</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- single footer two wozed -->
+                        <!-- single footer two wozed -->
+                        <div class="single-footer-wized">
+                            <div class="location-information">
+                                <div class="location">
+                                    <h6 class="title">Useful Links</h6>
+                                </div>
+                                <ul>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
-                                    <li><a href="{{ route('index') }}">Terms & Conditions</a></li>
-                                    <li><a href="{{ route('index') }}">Privacy Policy</a></li>
+                                    <li><a href="{{ route('property') }}">Property</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
+
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-footer-widget ps-3">
-                                <h3>Resources</h3>
-                                <ul class="custom-links">
-                                    <li><a href="{{ route('index') }}">Apartments</a></li>
-                                    <li><a href="{{ route('index') }}">Villa</a></li>
-                                    <li><a href="{{ route('index') }}">Sell or Buy</a></li>
-                                    <li><a href="{{ route('index') }}">New Apartment</a></li>
-                                    <li><a href="{{ route('index') }}">Our Agents</a></li>
-                                </ul>
+                        <!-- single footer two wozed -->
+                        <!-- single footer two wozed -->
+                        <div class="single-footer-wized">
+                            <div class="location-information">
+                                <div class="location">
+                                    <h6 class="title">News Letter</h6>
+                                    <!--<p class="disc-f">
+                                        Subscribe to our newsletter & get all
+                                        the latest news.
+                                    </p>-->
+                                </div>
+                                <!--<form action="#">
+                                    <div class="input-email">
+                                        <input type="text" placeholder="Enter your email address">
+                                        <button><i class="fa-thin fa-arrow-right"></i></button>
+                                    </div>
+                                </form>-->
+
                             </div>
+
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-footer-widget ps-3">
-                                <h3>Quick Links</h3>
-                                <ul class="custom-links">
-                                    <li><a href="{{ route('index') }}">Pricing</a></li>
-                                    <li><a href="{{ route('index') }}">What We Do</a></li>
-                                    <li><a href="{{ route('index') }}">Testimonial</a></li>
-                                    <li><a href="{{ route('index') }}">Neighborhood</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h3>Contact Info</h3>
-                                <ul class="info-list">
-                                    <li>
-                                        <span>Address:</span>
-                                        #106, Bay Square 11, Business Bay, Dubai, UAE
-                                    </li>
-                                    <li>
-                                        <span>Email:</span>
-                                        <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
-                                    </li>
-                                    <li>
-                                        <span>Mobile:</span>
-                                        <a href="tel:+971506258760">+971 50 625 8760</a>
-                                    </li>
-                                    <li>
-                                        <span>Land Phone:</span>
-                                        <a href="tel:+971043494444">+971 04 349 4444</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <!-- single footer two wozed -->
                     </div>
                 </div>
-            </div>
-            <div class="copyright-area">
-                <p>
-                    Copyright <span>Aurega Real Estate</span> All Rights Reserved by <a href="https://auregagroup.com" target="_blank">Aurega Group</a>
-                </p>
             </div>
         </div>
-    </footer>
-    <!-- End Footer Area -->
-
-    <!-- Back to Top -->
-    <button type="button" id="back-to-top" class="position-fixed text-center border-0 p-0">
-        <i class="ri-arrow-up-s-line"></i>
-    </button>
-    <!-- End Back to Top -->
-
-    <!-- Start Lines -->
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <div class="rts-copyright-area-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copy-right-area-inner-two">
+                            <p class="disc">Copyright {{ date('Y') }}. All Rights Reserved.</p>
+                            <div class="right">
+                                <ul>
+                                    <li><a href="#">Terms & conditions</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- End Lines -->
+    <!-- rts footer area end -->
 
-    <!-- Link of JS Files -->
-    <script src="{{ asset('/web/assets/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/scrollCue.min.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/fslightbox.min.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/simpleParallax.min.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/main.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- back to top end -->
+
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <!-- mobile menu area start -->
+        @include("web.mobile-nav")
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+
+    <div class="grid-line">
+        <div class="grid-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- start loader -->
+    <!-- <div class="loader-wrapper">
+    <div class="loader">
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div> -->
+    <!-- End loader -->
+
+
+    <div id="anywhere-home">
+    </div>
+
+    <!-- scripts -->
+    <script src="{{ asset('/web/assets/js/vendor/jquery.min.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/vendor/waw.js') }}"></script>
+
+    <!-- gsap plugins -->
+    <script src="{{ asset('/web/assets/js/vendor/gsap.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/vendor/metismenu.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/plugins/scrolltiger.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/plugins/scrolltoplugin.js') }}"></script>
+    <!-- <script src="{{ asset('/web/assets/js/plugins/smoothscroll.js') }}"></script> -->
+    <script src="{{ asset('/web/assets/js/plugins/splittext.js') }}"></script>
+    <!-- gsap plugins end-->
+
+    <script src="{{ asset('/web/assets/js/vendor/magnifying-popup.js') }}"></script>
+
+    <!-- swiper JS 10.2.0 -->
+    <script src="{{ asset('/web/assets/js/plugins/swiper.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/plugins/counterup.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/vendor/waypoint.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/vendor/chroma.min.js') }}"></script>
+    <!-- bootstrap 5.0.2 -->
+    <script src="{{ asset('/web/assets/js/plugins/bootstrap.min.js') }}"></script>
+    <!-- dymanic Contact Form -->
+    <script src="{{ asset('/web/assets/js/plugins/contact.form.js') }}"></script>
     <script src="{{ asset('/web/assets/js/mystickyelement.js') }}"></script>
+    <!-- main Js -->
+    <script src="{{ asset('/web/assets/js/main.js') }}"></script>
 </body>
 
 </html>
