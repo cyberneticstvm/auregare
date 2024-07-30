@@ -193,7 +193,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="{{ route('contact') }}" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/s2.webp') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/05.jpg') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -251,7 +251,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="service-details.html" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/05.jpg') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/04.jpg') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -288,7 +288,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thumbnail-image">
-                    <img src="{{ asset('/web/assets/images/about/a1.webp') }}" alt="about">
+                    <img src="{{ asset('/web/assets/images/about/15.jpg') }}" alt="about">
                 </div>
             </div>
             <div class="col-lg-6">

@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copy-right-area-inner-two">
-                            <p class="disc">Copyright {{ date('Y') }} @ <a href="https://auregagroup.com" target="_blank">Aurega Group</a>. All Rights Reserved.</p>
+                            <p class="disc">&copy; {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group Limited</a>. All Rights Reserved.</p>
                             <div class="right">
                                 <ul>
                                     <li><a href="#">Terms & conditions</a></li>
