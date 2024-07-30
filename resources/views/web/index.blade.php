@@ -155,7 +155,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="service-details.html" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/03.jpg') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/s1.webp') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -179,10 +179,9 @@
                             </div>
                             <div class="inner">
                                 <a href="service-details.html">
-                                    <h6 class="title">Commercial Properties</h6>
+                                    <h6 class="title">Property Leasing</h6>
                                 </a>
-                                <p class="disc">Space planning is a fundamental aspect off interior design that
-                                    focuses on arranging.</p>
+                                <p class="disc text-justify">Navigating the rental market in Dubai can be complex. Our property leasing service simplifies the process, offering you a seamless experience from start to finish. We help you find the perfect commercial or residential space that meets your needs and budget. With our extensive network and market knowledge, we ensure you secure the best deals in prime locations across Dubai. Our team handles all aspects of the leasing process, including property search, negotiations, and paperwork, so you can focus on what matters most—your business or personal endeavors.</p>
                                 <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
@@ -194,7 +193,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="{{ route('contact') }}" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/04.jpg') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/s2.webp') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -238,10 +237,9 @@
                             </div>
                             <div class="inner">
                                 <a href="{{ route('contact') }}">
-                                    <h6 class="title">Residential Properties</h6>
+                                    <h6 class="title">Property Mortgages</h6>
                                 </a>
-                                <p class="disc">Space planning is a fundamental aspect off interior design that
-                                    focuses on arranging.</p>
+                                <p class="disc text-justify">Securing a mortgage in Dubai can be daunting, but our expert advisors make it straightforward and stress-free. We offer comprehensive mortgage solutions tailored to your financial situation, whether you are purchasing your first home or expanding your investment portfolio. Our strong relationships with leading financial institutions allow us to provide competitive rates and flexible terms. We guide you through the entire mortgage process, from pre-approval to closing, ensuring you have the financial support needed to achieve your property goals.</p>
                                 <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
@@ -269,10 +267,9 @@
                             </div>
                             <div class="inner">
                                 <a href="{{ route('contact') }}">
-                                    <h6 class="title">Land</h6>
+                                    <h6 class="title">Property Brokerage</h6>
                                 </a>
-                                <p class="disc">Space planning is a fundamental aspect off interior design that
-                                    focuses on arranging.</p>
+                                <p class="disc text-justify">Our property brokerage service is designed to provide you with expert guidance and support in buying or selling properties in Dubai. With a deep understanding of the market and a keen eye for opportunities, our brokers work diligently to achieve the best outcomes for our clients. Whether you are looking for a lucrative investment property or selling a high-end residential asset, we offer strategic advice, comprehensive market analysis, and personalized service. Our commitment to transparency and integrity ensures a smooth and successful transaction every time.</p>
                                 <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
@@ -291,7 +288,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thumbnail-image">
-                    <img src="{{ asset('/web/assets/images/about/03.png') }}" alt="about">
+                    <img src="{{ asset('/web/assets/images/about/a1.webp') }}" alt="about">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -315,7 +312,7 @@
                     </div>
                     <div class="bottom-image-title mt--20">
                         <img src="{{ asset('/web/assets/images/about/05.png') }}" alt="shape">
-                        <span>“Creating Design Timeless Interiors”</span>
+                        <span>“Empowering Your Property Investment Journey”</span>
                     </div>
                     <!-- about short contact area start -->
                     <div class="about-short-contact-area mt--50">
@@ -425,19 +422,6 @@
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
                             <div class="right-content">
-                                <h6 class="title">Exceptional Support
-                                </h6>
-                                <p class="disc text-justify">
-                                    We offer ongoing support and guidance, ensuring your property investments are successful and stress-free. From initial consultation to post-purchase assistance, we are with you every step of the way.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- single choose us area end -->
-                    </div>
-                    <div class="col-lg-4 rts-slide-up">
-                        <!-- single choose us area -->
-                        <div class="single-choose-style-two">
-                            <div class="right-content">
                                 <h6 class="title">Proven Track Record
                                 </h6>
                                 <p class="disc text-justify">
@@ -460,7 +444,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="vedio-icone">
-                    <a class="play-video popup-youtube video-play-button" href="https://www.youtube.com/watch?v=MnrJzXM7a6o">
+                    <a class="play-video popup-youtube video-play-button" href="https://www.youtube.com/watch?v=IZlVbSxDVHs">
+                        <!--https://youtu.be/IZlVbSxDVHs?si=-y8u3xvoSc6OBATD-->
                         <span></span>
                     </a>
                     <div class="video-overlay">
@@ -487,14 +472,14 @@
                         </div>
                         <h2 class="title quote">
                             Explore our Amazing <br>
-                            Interior Project
+                            Projects
                         </h2>
                     </div>
-                    <p class="disc">
+                    <!--<p class="disc">
                         Our interior design project revolves around transforming a residential space <br> into a
                         modern
                         and inviting oasis. With a focus on functionality and aesthetics.
-                    </p>
+                    </p>-->
                     <div class="pagination-left-banner-one">
                         <div class="activeslide">01</div>
                         <div class="swiper-paginations"></div>
@@ -514,7 +499,7 @@
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="product-details-1.html" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/05.jpg') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/5.webp') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
@@ -528,7 +513,7 @@
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="product-details-1.html" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/16.jpg') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/7.webp') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
@@ -542,8 +527,8 @@
                                 <div class="swiper-slide">
                                     <!-- single outer text -->
                                     <div class="outer-product-text">
-                                        <a href="product-details-1.html">
-                                            <h2 class="title-change-one">living room <span>interior</span></h2>
+                                        <a href="{{ route('contact') }}">
+                                            <h2 class="title-change-one text-white">Residential <span>Projects</span></h2>
                                         </a>
                                     </div>
                                     <!-- single outer text end -->
@@ -551,8 +536,8 @@
                                 <div class="swiper-slide">
                                     <!-- single outer text -->
                                     <div class="outer-product-text">
-                                        <a href="product-details-1.html">
-                                            <h2 class="title-change-one">Kitchen room <span>interior</span></h2>
+                                        <a href="{{ route('contact') }}">
+                                            <h2 class="title-change-one">Commercial <span>Projects</span></h2>
                                         </a>
                                     </div>
                                     <!-- single outer text end -->
@@ -560,8 +545,8 @@
                                 <div class="swiper-slide">
                                     <!-- single outer text -->
                                     <div class="outer-product-text">
-                                        <a href="product-details-1.html">
-                                            <h2 class="title-change-one">Bathroom room <span>interior</span></h2>
+                                        <a href="{{ route('contact') }}">
+                                            <h2 class="title-change-one text-white">Land <span> Projects</span></h2>
                                         </a>
                                     </div>
                                     <!-- single outer text end -->
@@ -579,53 +564,8 @@
 </div>
 <!-- our projects area  end -->
 
-<!-- rts counter up area start -->
-<div class="rts-counterup-area-start rts_jump_counter__animation">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="counter-main-wrapper-two counter_animation">
-                    <!-- ingle counter up -->
-                    <div class="counter-single counter__anim">
-                        <div class="inner">
-                            <h2 class="title"><span class="counter">362</span>k</h2>
-                            <p>Award Winning</p>
-                        </div>
-                    </div>
-                    <!-- ingle counter up end -->
-                    <!-- ingle counter up -->
-                    <div class="counter-single counter__anim">
-                        <div class="inner">
-                            <h2 class="title"><span class="counter">106</span>+</h2>
-                            <p>Project Done</p>
-                        </div>
-                    </div>
-                    <!-- ingle counter up end -->
-                    <!-- ingle counter up -->
-                    <div class="counter-single counter__anim">
-                        <div class="inner">
-                            <h2 class="title"><span class="counter">120</span>+</h2>
-                            <p>Award Winning</p>
-                        </div>
-                    </div>
-                    <!-- ingle counter up end -->
-                    <!-- ingle counter up -->
-                    <div class="counter-single counter__anim">
-                        <div class="inner">
-                            <h2 class="title"><span class="counter">101</span>k</h2>
-                            <p>Year Experience</p>
-                        </div>
-                    </div>
-                    <!-- ingle counter up end -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts counter up area end -->
-
 <!-- rts testimonials area start -->
-<div class="rts-testimonials-area rts-section-gap2Bottom bg-3">
+<div class="rts-testimonials-area rts-section-gap2Bottom bg-3 mt-5">
     <div class="container">
         <div class="row">
             <div class="col-gl-12">
@@ -831,120 +771,6 @@
 </div>
 <!-- rts testimonials area end -->
 
-<!-- rts brand area start3 -->
-<div class="rts-brand-area ptb--100 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="titlte-brand-small">
-                    <p> 200+ Our Awesome global client</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="brand-area-wrapper-one">
-                    <!-- single branbd area -->
-                    <a href="#" class="single-brand">
-                        <img src="{{ asset('/web/assets/images/brand/01.png') }}" alt="brand">
-                    </a>
-                    <!-- single branbd area end -->
-                    <!-- single branbd area -->
-                    <a href="#" class="single-brand">
-                        <img src="{{ asset('/web/assets/images/brand/02.png') }}" alt="brand">
-                    </a>
-                    <!-- single branbd area end -->
-                    <!-- single branbd area -->
-                    <a href="#" class="single-brand">
-                        <img src="{{ asset('/web/assets/images/brand/03.png') }}" alt="brand">
-                    </a>
-                    <!-- single branbd area end -->
-                    <!-- single branbd area -->
-                    <a href="#" class="single-brand">
-                        <img src="{{ asset('/web/assets/images/brand/04.png') }}" alt="brand">
-                    </a>
-                    <!-- single branbd area end -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts brand area end -->
-<!-- rts blog area start -->
-<div class="rts-blog-area rts-section-gapTop">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-style-center">
-                    <div class="pre-title-area">
-                        <img src="{{ asset('/web/assets/images/about/02.png') }}" alt="about">
-                        <span class="pre-title">Our Blog</span>
-                    </div>
-                    <h2 class="title quote">Latest News and Updates <br>
-                        in Interior Design</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row g-24 rts-slide-up mt--30">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- single blog area start -->
-                <div class="signle-blog-style-one">
-                    <a href="blog-details.html" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/blog/01.jpg') }}" alt="blog">
-                        <span class="tag">Architecture</span>
-                    </a>
-                    <div class="inner-content">
-                        <a href="blog-details.html">
-                            <h5 class="title">
-                                The Retro Outdoor Furniture Set
-                                That’s Like Grandma’s—But Better
-                            </h5>
-                        </a>
-                        <a class="btn-blog-readmore" href="blog-details.html"> Read More +</a>
-                    </div>
-                </div>
-                <!-- single blog area end -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- single blog area start -->
-                <div class="signle-blog-style-one">
-                    <a href="blog-details.html" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/blog/02.jpg') }}" alt="blog">
-                        <span class="tag">Office Desk</span>
-                    </a>
-                    <div class="inner-content">
-                        <a href="blog-details.html">
-                            <h5 class="title">
-                                The Art of Mindful Parenting: Finding Balance and Joy
-                            </h5>
-                        </a>
-                        <a class="btn-blog-readmore" href="blog-details.html"> Read More +</a>
-                    </div>
-                </div>
-                <!-- single blog area end -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- single blog area start -->
-                <div class="signle-blog-style-one">
-                    <a href="blog-details.html" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/blog/03.jpg') }}" alt="blog">
-                        <span class="tag">Interior</span>
-                    </a>
-                    <div class="inner-content">
-                        <a href="blog-details.html">
-                            <h5 class="title">
-                                Unlocking Creativity: 10 Exercises to Inspire Your Imagination
-                            </h5>
-                        </a>
-                        <a class="btn-blog-readmore" href="blog-details.html"> Read More +</a>
-                    </div>
-                </div>
-                <!-- single blog area end -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- rts blog area end -->
 <!-- rts cta area stat -->
 <div class="rts-cta-main-wrapper rts-section-gap">
     <div class="container">
@@ -956,9 +782,9 @@
                         <span class="pre-title">Work With Us</span>
                     </div>
                     <h2 class="title quote"><span>We are</span> excited to learn <br>
-                        more about <span>your project</span></h2>
+                        more about <span>your investment plans</span></h2>
 
-                    <a href="contact.html" class="rts-btn btn-border">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Read More <i class="fa-regular fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

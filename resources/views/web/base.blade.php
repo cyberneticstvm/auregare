@@ -41,7 +41,7 @@
     @yield("content")
 
     <!-- rts footer area start -->
-    <div class="rts-footer-area bg-light social-jumpanimation">
+    <div class="rts-footer-area bg-dark social-jumpanimation">
         <div class="container">
             <div class="row g-5   ptb--100 ptb_sm--60 ptb_md--80">
                 <div class="col-lg-4">
@@ -68,15 +68,15 @@
                         <div class="single-footer-wized">
                             <div class="location-information">
                                 <div class="location">
-                                    <p>#106, Bay Square 11, Business Bay, <br>
+                                    <p class="text-white">#106, Bay Square 11, Business Bay, <br>
                                         Dubai, UAE</p>
                                 </div>
                                 <div class="contact-call">
-                                    <a href="tel:+971506258760">+971 50 625 8760</a>
+                                    <a href="tel:+971506258760" class="text-white">+971 50 625 8760</a>
                                     <span>Call us for support</span>
                                 </div>
                                 <div class="contact-call">
-                                    <a href="mailto:are@auregagroup.com">are@auregagroup.com</a>
+                                    <a href="mailto:are@auregagroup.com" class="text-white">are@auregagroup.com</a>
                                     <span>Email us for query</span>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
                         <div class="single-footer-wized">
                             <div class="location-information">
                                 <div class="location">
-                                    <h6 class="title">Useful Links</h6>
+                                    <h6 class="title text-white">Useful Links</h6>
                                 </div>
                                 <ul>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
@@ -103,7 +103,7 @@
                         <div class="single-footer-wized">
                             <div class="location-information">
                                 <div class="location">
-                                    <h6 class="title">News Letter</h6>
+                                    <h6 class="title text-white">News Letter</h6>
                                     <!--<p class="disc-f">
                                         Subscribe to our newsletter & get all
                                         the latest news.
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copy-right-area-inner-two">
-                            <p class="disc">Copyright {{ date('Y') }}. All Rights Reserved.</p>
+                            <p class="disc">Copyright {{ date('Y') }} @ <a href="https://auregagroup.com" target="_blank">Aurega Group</a>. All Rights Reserved.</p>
                             <div class="right">
                                 <ul>
                                     <li><a href="#">Terms & conditions</a></li>
