@@ -32,8 +32,9 @@
             <div class="col-lg-3 col-md-6">
                 <div class="left-contact">
                     <p class="top mb--30">
-                        Get in touch with us
+                        Get in Touch with Aurega Real Estate
                     </p>
+                    <p>We'd love to hear from you! Whether you have a question about our services, need property investment advice, or want to explore our property listings, our team is here to assist you.</p>
                     <a href="tel:+971506258760">Hot Line: +971 50 625 8760</a>
                 </div>
             </div>

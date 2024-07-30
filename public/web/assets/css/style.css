@@ -25244,3 +25244,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   transition: all 0.3s 1s ease-out;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.text-justify{
+  text-align: justify !important;
+}

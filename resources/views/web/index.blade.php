@@ -11,16 +11,16 @@
                             <div class="col-lg-12">
                                 <!-- banner content two inner area start -->
                                 <div class="banner-inner-content-wrapper">
-                                    <span class="pre-title">Best Interior Design </span>
+                                    <span class="pre-title">Navigating Your Path to Premier Property Investments.</span>
                                     <h1 class="title">
-                                        Creating <span>Inspiring</span> <br>
-                                        Interiors Vision
+                                        More than Property, <span>We Offer</span> <br>
+                                        Possibilities
                                     </h1>
                                     <p class="disc">
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="Portfolio-grid-col-4.html" class="rts-btn btn-border">Recent Project <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -37,16 +37,16 @@
                             <div class="col-lg-12">
                                 <!-- banner content two inner area start -->
                                 <div class="banner-inner-content-wrapper">
-                                    <span class="pre-title">Best Interior Design </span>
+                                    <span class="pre-title">Your Gateway to Dubai's Real Estate Excellence</span>
                                     <h1 class="title">
-                                        Building <span>Awesome</span> <br>
-                                        Interiors Vision
+                                        More than Property, <span>We Offer</span> <br>
+                                        Possibilities
                                     </h1>
                                     <p class="disc">
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="Portfolio-grid-col-4.html" class="rts-btn btn-border">Recent Project <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -63,16 +63,16 @@
                             <div class="col-lg-12">
                                 <!-- banner content two inner area start -->
                                 <div class="banner-inner-content-wrapper">
-                                    <span class="pre-title">Best Interior Design </span>
+                                    <span class="pre-title">Empowering Your Property Investment Journey</span>
                                     <h1 class="title">
-                                        Decorate <span>Beautiful</span> <br>
-                                        Living Room
+                                        More than Property, <span>We Offer</span> <br>
+                                        Possibilities
                                     </h1>
                                     <p class="disc">
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="Portfolio-grid-col-4.html" class="rts-btn btn-border">Recent Project <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -93,8 +93,8 @@
                         <div class="single-item">
                             <span class="number">01</span>
                             <div class="inner">
-                                <span class="pre">Interior design</span>
-                                <h6 class="title">modern office</h6>
+                                <span class="pre">Properties</span>
+                                <h6 class="title">Residential</h6>
                             </div>
                         </div>
                         <!-- single item end -->
@@ -104,8 +104,8 @@
                         <div class="single-item">
                             <span class="number">02</span>
                             <div class="inner">
-                                <span class="pre">Interior design</span>
-                                <h6 class="title">luxury kitchen</h6>
+                                <span class="pre">Properties</span>
+                                <h6 class="title">Commercial</h6>
                             </div>
                         </div>
                         <!-- single item end -->
@@ -115,8 +115,8 @@
                         <div class="single-item">
                             <span class="number">03</span>
                             <div class="inner">
-                                <span class="pre">Interior design</span>
-                                <h6 class="title">Living Room</h6>
+                                <span class="pre">Properties</span>
+                                <h6 class="title">Land</h6>
                             </div>
                         </div>
                         <!-- single item end -->
@@ -136,21 +136,18 @@
                 <div class="title-area-multiple-elements">
                     <div class="title-left-style-two">
                         <div class="pre-title">
-                            <span class="pre-title">Services</span>
+                            <span class="pre-title">Aurega Real Estate LLC</span>
                             <img src="{{ asset('/web/assets/images/service/02.png') }}" alt="service">
                         </div>
                         <h2 class="title">
-                            Comprehensive Interior <br>
-                            Design Services
+                            Your Trusted Partner in <br>
+                            Dubai Property Investment
                         </h2>
                     </div>
-                    <p class="disc">
-                        Welcome to our interior design services, where we specialize in transforming spaces into
-                        stunning, functional of services.
-                    </p>
-                    <a href="#" class="view-servce-btn">View All Services <i class="fa-thin fa-chevron-right"></i></a>
+                    <a href="{{ route('contact') }}" class="view-servce-btn">Invest Now <i class="fa-thin fa-chevron-right"></i></a>
                 </div>
                 <!-- title area multiple elements end -->
+                <p>For over 30 years, Aurega Group has been a cornerstone of Dubai's dynamic economic, offering unparalleled expertise and exceptional services in property leasing, property mortgages, and property brokerage. Our seasoned team of professionals is dedicated to providing the best property investment advisory, ensuring you make informed decisions that yield substantial returns.<br />At Aurega Real Estate, we understand that each property investment is unique, whether you're looking to lease a commercial space, secure a residential mortgage, or diversify your portfolio through strategic property investments. Our comprehensive approach combines in-depth market analysis with personalized guidance, helping you navigate the complexities of the Dubai real estate landscape with confidence.<br />Explore our extensive portfolio of properties across prime locations in Dubai, meticulously curated to meet diverse investment objectives. Whether you're a seasoned investor or a first-time buyer, Aurega Real Estate is committed to delivering tailored solutions that align with your financial goals and aspirations.<br />Benefit from our proactive market insights and proactive investment strategies designed to maximize returns while mitigating risks. Discover the Aurega difference today and embark on your journey towards successful property investments in Dubai.</p>
             </div>
         </div>
         <div class="row g-5 mt--30 rts-slide-up">
@@ -182,11 +179,11 @@
                             </div>
                             <div class="inner">
                                 <a href="service-details.html">
-                                    <h6 class="title">Space Planning</h6>
+                                    <h6 class="title">Commercial Properties</h6>
                                 </a>
                                 <p class="disc">Space planning is a fundamental aspect off interior design that
                                     focuses on arranging.</p>
-                                <a href="service-details.html" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
+                                <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +193,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
-                    <a href="service-details.html" class="thumbnail">
+                    <a href="{{ route('contact') }}" class="thumbnail">
                         <img src="{{ asset('/web/assets/images/service/04.jpg') }}" alt="service">
                     </a>
                     <div class="body">
@@ -240,12 +237,12 @@
                                 <span>02</span>
                             </div>
                             <div class="inner">
-                                <a href="service-details.html">
-                                    <h6 class="title">Interior Design</h6>
+                                <a href="{{ route('contact') }}">
+                                    <h6 class="title">Residential Properties</h6>
                                 </a>
                                 <p class="disc">Space planning is a fundamental aspect off interior design that
                                     focuses on arranging.</p>
-                                <a href="service-details.html" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
+                                <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -271,12 +268,12 @@
                                 <span>03</span>
                             </div>
                             <div class="inner">
-                                <a href="service-details.html">
-                                    <h6 class="title">Remodeling Services</h6>
+                                <a href="{{ route('contact') }}">
+                                    <h6 class="title">Land</h6>
                                 </a>
                                 <p class="disc">Space planning is a fundamental aspect off interior design that
                                     focuses on arranging.</p>
-                                <a href="service-details.html" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
+                                <a href="{{ route('contact') }}" class="arrow-btn-read-more">Read More <i class="fa-thin fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -301,17 +298,17 @@
                 <div class="about-inner-two-wrapper">
                     <div class="title-left-style-two">
                         <div class="pre-title">
-                            <span class="pre-title">About US</span>
+                            <span class="pre-title">Vision & Mission:</span>
                             <img src="{{ asset('/web/assets/images/service/02.png') }}" alt="service">
                         </div>
                         <h2 class="title quote">
                             About Our Passion <br>
-                            for Interior Design
+                            for Investment
                         </h2>
                     </div>
                     <p class="disc">
-                        We believe that a well-designed space can have a profound impact on your well-being and
-                        quality of life. Whether it's your home, office, or any other interior environment.
+                        <strong>Vision:</strong> To be the leading real estate advisory firm in Dubai, renowned for our integrity, innovation, and commitment to delivering exceptional investment outcomes for our clients.<br /><br />
+                        <strong>Mission:</strong> Our mission is to provide unparalleled real estate advisory services, leveraging our deep market knowledge and personalized approach to empower clients in making informed property investment decisions. We strive to exceed expectations through professionalism, transparency, and tailored solutions that drive success and satisfaction.
                     </p>
                     <div class="about-in-image rts-reveal-one">
                         <img class="rts-reveal-image-one" src="{{ asset('/web/assets/images/about/04.jpg') }}" alt="about">
@@ -322,12 +319,12 @@
                     </div>
                     <!-- about short contact area start -->
                     <div class="about-short-contact-area mt--50">
-                        <a href="about.html" class="rts-btn btn-border">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                        <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
                         <div class="contact-information">
                             <i class="fa-solid fa-phone"></i>
                             <div class="information">
                                 <span>Call Us 24/7</span>
-                                <a href="Tel:1234567890">+236-3256.21456</a>
+                                <a href="Tel:+971506258760">+971 50 625 8760</a>
                             </div>
                         </div>
                     </div>
@@ -343,12 +340,12 @@
 <div class="rts-section-gap why-chooseus-section">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7 pr--120 pr_sm--0">
+            <div class="col-lg-12 pr--120 pr_sm--0">
                 <!-- why chooseus section start -->
                 <div class="why-choose-us-left-two">
                     <div class="title-left-style-two">
                         <div class="pre-title">
-                            <span class="pre-title">Why Choose Us</span>
+                            <span class="pre-title">Why Choose Aurega Real Estate</span>
                             <img src="{{ asset('/web/assets/images/service/07.png') }}" alt="service">
                         </div>
                         <h2 class="title quote">
@@ -357,79 +354,99 @@
                         </h2>
                     </div>
                     <p class="disc">
-                        Choosing interior design services offers numerous benefits. Here are a few reasons why you
-                        should consider working with professional interior designers:
+                        Here are a few reasons why you should consider working with professional Investors:
                     </p>
                 </div>
                 <!-- why chooseus section end -->
                 <div class="row mt--20 g-5">
-                    <div class="col-lg-6 rts-slide-up">
+                    <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
-                            <div class="icon">
-                                <img src="{{ asset('/web/assets/images/why-choose/01.png') }}" alt="choose_icon">
-                            </div>
                             <div class="right-content">
-                                <h6 class="title">Expertise and Experience</h6>
-                                <p class="disc">
-                                    Interior designers possess the
-                                    skills create well-designed.
+                                <h6 class="title">Decades of Experience</h6>
+                                <p class="disc text-justify">
+                                    With over 20 years in the Dubai market, our expertise and insights are unmatched. We have a proven track record of helping clients make successful property investments.
                                 </p>
                             </div>
                         </div>
                         <!-- single choose us area end -->
                     </div>
-                    <div class="col-lg-6 rts-slide-up">
+                    <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
-                            <div class="icon">
-                                <img src="{{ asset('/web/assets/images/why-choose/02.png') }}" alt="choose_icon">
-                            </div>
                             <div class="right-content">
-                                <h6 class="title">Innovative Solutions</h6>
-                                <p class="disc">
-                                    Interior designers are trained to think creatively and come.
+                                <h6 class="title">Comprehensive Services</h6>
+                                <p class="disc text-justify">
+                                    From property leasing and mortgages to brokerage, we offer a full range of services to meet your needs. Our integrated approach ensures that all aspects of your property investment are handled seamlessly.
                                 </p>
                             </div>
                         </div>
                         <!-- single choose us area end -->
                     </div>
-                    <div class="col-lg-6 rts-slide-up">
+                    <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
-                            <div class="icon">
-                                <img src="{{ asset('/web/assets/images/why-choose/03.png') }}" alt="choose_icon">
-                            </div>
                             <div class="right-content">
-                                <h6 class="title">Time and Cost Efficiency</h6>
-                                <p class="disc">
-                                    Hiring an interior designer can save you time and money.
+                                <h6 class="title">Market Knowledge</h6>
+                                <p class="disc text-justify">
+                                    Our deep understanding of the UAE property market ensures you receive the best investment advice. We stay up-to-date with the latest market trends and developments, enabling us to provide you with accurate and relevant information.
                                 </p>
                             </div>
                         </div>
                         <!-- single choose us area end -->
                     </div>
-                    <div class="col-lg-6 rts-slide-up">
+                    <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
-                            <div class="icon">
-                                <img src="{{ asset('/web/assets/images/why-choose/04.png') }}" alt="choose_icon">
-                            </div>
                             <div class="right-content">
-                                <h6 class="title">Value Enhancement
+                                <h6 class="title">Personalized Approach
                                 </h6>
-                                <p class="disc">
-                                    Well-designed interiors can us significantly enhance value.
+                                <p class="disc text-justify">
+                                    We provide tailored solutions that align with your unique investment goals and preferences. Our team takes the time to understand your needs and offers customized strategies to help you achieve your objectives.
                                 </p>
                             </div>
                         </div>
                         <!-- single choose us area end -->
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-5 mt_sm--50">
-                <div class="thumbnail">
-                    <img src="{{ asset('/web/assets/images/service/06.png') }}" alt="service">
+                    <div class="col-lg-4 rts-slide-up">
+                        <!-- single choose us area -->
+                        <div class="single-choose-style-two">
+                            <div class="right-content">
+                                <h6 class="title">Trusted Advisors
+                                </h6>
+                                <p class="disc text-justify">
+                                    Our commitment to integrity and professionalism has earned us the trust of countless clients. We prioritize transparency and honesty in all our dealings, ensuring that you can rely on us for sound advice.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single choose us area end -->
+                    </div>
+                    <div class="col-lg-4 rts-slide-up">
+                        <!-- single choose us area -->
+                        <div class="single-choose-style-two">
+                            <div class="right-content">
+                                <h6 class="title">Exceptional Support
+                                </h6>
+                                <p class="disc text-justify">
+                                    We offer ongoing support and guidance, ensuring your property investments are successful and stress-free. From initial consultation to post-purchase assistance, we are with you every step of the way.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single choose us area end -->
+                    </div>
+                    <div class="col-lg-4 rts-slide-up">
+                        <!-- single choose us area -->
+                        <div class="single-choose-style-two">
+                            <div class="right-content">
+                                <h6 class="title">Proven Track Record
+                                </h6>
+                                <p class="disc text-justify">
+                                    Our successful history and numerous satisfied clients are a testament to our dedication and expertise. We have a long list of success stories that demonstrate our ability to deliver outstanding results.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single choose us area end -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -607,71 +624,212 @@
 </div>
 <!-- rts counter up area end -->
 
-<!-- tesatimonais area start -->
-<div class="testimonails-area rts-section-gap">
+<!-- rts testimonials area start -->
+<div class="rts-testimonials-area rts-section-gap2Bottom bg-3">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="testimonials-left-main-wrapper-two">
-                    <div class="title-left-style-two">
-                        <div class="pre-title">
-                            <span class="pre-title">Testimonials</span>
-                            <img src="{{ asset('/web/assets/images/service/07.png') }}" alt="service">
-                        </div>
-                        <h2 class="title quote">
-                            Amazing feedback from <br>
-                            Our valued clients
-                        </h2>
-                    </div>
-                    <!-- testimonials amain review area stat -->
-                    <div class="testimonials-style-two-wrapper">
-                        <!-- single testimonials area start -->
-                        <div class="single-testimonials-style-two">
-                            <div class="icon">
-                                <img src="{{ asset('/web/assets/images/testimonials/03.png') }}" alt="testimonials">
-                            </div>
-                            <p class="disc">
-                                Working with your team was an absolute pleasure. From the initial concept to the
-                                final installation, every step was executed with professionalism and attention to
-                                detail. The end result exceeded our expectations, and couldn't be happier with our
-                                beautifully transformed space.
-                            </p>
-                            <div class="bottom-testimonials">
-                                <div class="rating-artea-two">
-                                    <div class="stars-one-wrapper">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <span>4.8 out of 5.0</span>
-                                </div>
-                                <div class="author-rating-area">
-                                    <img src="{{ asset('/web/assets/images/testimonials/02.png') }}" alt="author">
-                                    <div class="information">
-                                        <p>John William</p>
-                                        <span>New Client</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single testimonials area end -->
-                    </div>
-                    <!-- testimonials amain review area end -->
+            <div class="col-gl-12">
+                <div class="title-style-three-center mt-5">
+                    <span>Testimonials</span>
+                    <h2 class="title quote">Amazing feedback from <br>
+                        Our valued clients
+                    </h2>
                 </div>
             </div>
-            <div class="col-lg-6 mt_md--50 mt_sm--50">
-                <div class="thumbnail-testimonials-2">
-                    <div class="rts-reveal-one">
-                        <img class=" rts-reveal-image-one" src="{{ asset('/web/assets/images/testimonials/05.jpg') }}" alt="testimonails">
+        </div>
+        <div class="testimonials-main-wrapper">
+            <div class="swiper mySwiper-three-testimonials">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "I had a fantastic experience with Aurega Real Estate. Their team helped me find the perfect property in Dubai, and their investment advice was spot-on."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Arjun Patel</h5>
+                                                <span>India</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "Aurega Real Estate's expertise in the Dubai market is unparalleled. Their guidance was invaluable in securing a lucrative property investment."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Fatima Al-Mansouri</h5>
+                                                <span>UAE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "I highly recommend Aurega Real Estate. They provided exceptional service and made the entire property leasing process seamless."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Rajesh Kumar</h5>
+                                                <span>India</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "Thanks to Aurega Real Estate, I was able to secure a great mortgage rate for my property investment in Dubai."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Ahmed Hassan</h5>
+                                                <span>UAE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "The team at Aurega Real Estate is knowledgeable, professional, and incredibly helpful. They made my property investment journey smooth and stress-free."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Priya Nair</h5>
+                                                <span>India</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "Aurega Real Estate's personalized approach and market insights were instrumental in helping me make informed investment decisions."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Saeed Al-Farsi</h5>
+                                                <span>UAE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row mt--70 align-items-center">
+                            <div class="col-lg-12">
+                                <!-- testimonials area start -->
+                                <div class="testimonails-style-three-wrapper">
+                                    <!-- ingle testimonials start -->
+                                    <div class="testimonials-single-three">
+                                        <div class="icon">
+                                            <img src="{{ asset('/web/assets/images/testimonials/07.png') }}" alt="testimonias">
+                                        </div>
+                                        <div class="testimonials-body">
+                                            <p class="disc">
+                                                "I am thoroughly impressed with Aurega Real Estate's commitment to excellence. They truly go above and beyond for their clients."
+                                            </p>
+                                            <div class="testimonials-bottom">
+                                                <h5 class="title">Anjali Sharma</h5>
+                                                <span>India</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ingle testimonials end -->
+                                </div>
+                                <!-- testimonials area end -->
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
 </div>
-<!-- tesatimonais area end -->
+<!-- rts testimonials area end -->
 
 <!-- rts brand area start3 -->
 <div class="rts-brand-area ptb--100 bg-light">
