@@ -30,4 +30,9 @@ class WebController extends Controller
     {
         return view('web.contact');
     }
+
+    function privacy()
+    {
+        return view('web.privacy');
+    }
 }

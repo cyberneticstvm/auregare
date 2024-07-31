@@ -11,5 +11,6 @@ Route::middleware(['web'])->group(function () {
         Route::get('/about', 'about')->name('about');
         Route::get('/blog', 'blog')->name('blog');
         Route::get('/contact', 'contact')->name('contact');
+        Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
     });
 });

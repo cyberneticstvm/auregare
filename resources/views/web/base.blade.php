@@ -132,8 +132,7 @@
                             <p class="disc">&copy; {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group Limited</a>. All Rights Reserved.</p>
                             <div class="right">
                                 <ul>
-                                    <li><a href="#">Terms & conditions</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="{{ route('privacy.policy') }}">Privacy policy</a></li>
                                 </ul>
                             </div>
                         </div>
