@@ -103,8 +103,8 @@
                         <div class="single-footer-wized">
                             <div class="location-information">
                                 <div class="location">
-                                    <h6 class="title text-white">News Letter</h6>
-                                    <!--<p class="disc-f">
+                                    <!--<h6 class="title text-white">News Letter</h6>
+                                    <p class="disc-f">
                                         Subscribe to our newsletter & get all
                                         the latest news.
                                     </p>-->
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copy-right-area-inner-two">
-                            <p class="disc">&copy; {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group Limited</a>. All Rights Reserved.</p>
+                            <p class="disc">&copy; {{ date('Y') }} <a href="https://auregarealestate.com">Aurega Real Estate</a>. All Rights Reserved by <a href="https://auregagroup.com" target="_blank">Aurega Group</a></p>
                             <div class="right">
                                 <ul>
                                     <li><a href="{{ route('privacy.policy') }}">Privacy policy</a></li>

@@ -119,7 +119,7 @@
                             <h5 class="mt-5"><a href="javascript:void(0)">Contact Us</a></h5>
                             <p class="">If you have any questions or concerns about this privacy policy or our data practices, please contact us at:</p>
                             <ul>
-                                <li><strong>Email:</strong> <a href="mailto:aas@auregagroup.com">aas@auregagroup.com</a></li>
+                                <li><strong>Email:</strong> <a href="mailto:are@auregagroup.com">aas@auregagroup.com</a></li>
                                 <li><strong>Phone:</strong> <a href="tel:+97143494444">+(971) 4 349 4444</a></li>
                                 <li><strong>Address:</strong> <a href="#!">#106, Bay Square 11, Business Bay, Dubai, UAE</a></li>
                             </ul>
@@ -129,7 +129,7 @@
                 <div class="col-xl-12">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
-                            <h5 class="mt-5"><a href="javascript:void(0)">Effective Date: 01.02.2024</a></h5>
+                            <h5 class="mt-5"><a href="javascript:void(0)">Effective Date: 01.08.2024</a></h5>
                             <p class="">By using our Site and services, you acknowledge that you have read and understood this privacy policy and agree to our collection, use, and sharing of your information as described herein.</p>
                         </div>
                     </div>
