@@ -499,21 +499,21 @@
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="product-details-1.html" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/5.webp') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/7.png') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="product-details-1.html" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/15.jpg') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/9.png') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="product-details-1.html" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/7.webp') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/8.png') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
@@ -537,7 +537,7 @@
                                     <!-- single outer text -->
                                     <div class="outer-product-text">
                                         <a href="{{ route('contact') }}">
-                                            <h2 class="title-change-one">Commercial <span>Projects</span></h2>
+                                            <h2 class="title-change-one text-white">Commercial <span>Projects</span></h2>
                                         </a>
                                     </div>
                                     <!-- single outer text end -->
@@ -546,7 +546,7 @@
                                     <!-- single outer text -->
                                     <div class="outer-product-text">
                                         <a href="{{ route('contact') }}">
-                                            <h2 class="title-change-one text-white">Land <span> Projects</span></h2>
+                                            <h2 class="title-change-one text-white">Villa <span> Projects</span></h2>
                                         </a>
                                     </div>
                                     <!-- single outer text end -->
