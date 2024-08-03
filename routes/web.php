@@ -13,5 +13,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/blog/{slug}', 'blogDetail')->name('blog.detail');
         Route::get('/contact', 'contact')->name('contact');
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
+        Route::get('/refresh/captcha', 'refreshCaptcha')->name('refresh.captcha');
+        Route::post('/contact', 'contactSubmit')->name('contact.submit');
     });
 });

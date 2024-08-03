@@ -216,6 +216,7 @@
     <script src="{{ asset('/web/assets/js/mystickyelement.js') }}"></script>
     <!-- main Js -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/script.js') }}"></script>
 </body>
 
 </html>

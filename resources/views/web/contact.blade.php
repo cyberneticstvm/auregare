@@ -63,12 +63,39 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-6">
-                <form action="#" class="contact-form-conatct-page">
+                @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+                @endif
+                <form action="{{ route('contact.submit') }}" class="contact-form-conatct-page" method="post">
+                    @csrf
                     <p class="top-contact mb--20">Contac Form</p>
-                    <input type="text" placeholder="Your name" required>
-                    <input type="text" placeholder="Phone Number">
-                    <textarea placeholder="Your message"></textarea>
-                    <button class="rts-btn btn-primary mt--30">Send Now</button>
+                    <input type="text" name="name" placeholder="Your name" value="{{ old('name') }}" required>
+                    @error('name')
+                    <small class="text-danger">{{ $errors->first('name') }}</small>
+                    @enderror
+                    <input type="text" name="mobile" placeholder="Phone Number" value="{{ old('mobile') }}" required>
+                    @error('mobile')
+                    <small class="text-danger">{{ $errors->first('mobile') }}</small>
+                    @enderror
+                    <input type="email" name="email" placeholder="Email Id" value="{{ old('email') }}" required>
+                    @error('email')
+                    <small class="text-danger">{{ $errors->first('email') }}</small>
+                    @enderror
+                    <textarea placeholder="Your message" name="message" required>{{ old('message') }}</textarea>
+                    @error('message')
+                    <small class="text-danger">{{ $errors->first('message') }}</small>
+                    @enderror
+                    <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha" required>
+                    @error('captcha')
+                    <small class="text-danger">{{ $errors->first('captcha') }}</small>
+                    @enderror
+                    <div class="captcha mt-3">
+                        <span>{!! captcha_img('mini') !!}</span>
+                        <button type="button" class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></button>
+                    </div>
+                    <button class="rts-btn btn-primary mt--30 btn-submit" type="submit">Submit</button>
                 </form>
             </div>
         </div>
