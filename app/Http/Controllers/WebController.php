@@ -26,6 +26,11 @@ class WebController extends Controller
         return view('web.blog');
     }
 
+    function blogDetail($slug)
+    {
+        return view('web.blog-detail');
+    }
+
     function contact()
     {
         return view('web.contact');

@@ -10,6 +10,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/property', 'property')->name('property');
         Route::get('/about', 'about')->name('about');
         Route::get('/blog', 'blog')->name('blog');
+        Route::get('/blog/{slug}', 'blogDetail')->name('blog.detail');
         Route::get('/contact', 'contact')->name('contact');
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
     });
