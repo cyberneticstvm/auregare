@@ -154,7 +154,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
-                    <a href="service-details.html" class="thumbnail">
+                    <a href="#" class="thumbnail">
                         <img src="{{ asset('/web/assets/images/service/s1.webp') }}" alt="service">
                     </a>
                     <div class="body">
@@ -178,7 +178,7 @@
                                 <span>01</span>
                             </div>
                             <div class="inner">
-                                <a href="service-details.html">
+                                <a href="#">
                                     <h6 class="title">Property Leasing</h6>
                                 </a>
                                 <p class="disc text-justify">Navigating the rental market in Dubai can be complex. Our property leasing service simplifies the process, offering you a seamless experience from start to finish. We help you find the perfect commercial or residential space that meets your needs and budget. With our extensive network and market knowledge, we ensure you secure the best deals in prime locations across Dubai. Our team handles all aspects of the leasing process, including property search, negotiations, and paperwork, so you can focus on what matters most—your business or personal endeavors.</p>
@@ -250,7 +250,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
-                    <a href="service-details.html" class="thumbnail">
+                    <a href="#" class="thumbnail">
                         <img src="{{ asset('/web/assets/images/service/04.jpg') }}" alt="service">
                     </a>
                     <div class="body">
@@ -498,21 +498,21 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
-                                    <a href="product-details-1.html" class="thumbnail">
+                                    <a href="#" class="thumbnail">
                                         <img src="{{ asset('/web/assets/images/product/7.png') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
-                                    <a href="product-details-1.html" class="thumbnail">
+                                    <a href="#" class="thumbnail">
                                         <img src="{{ asset('/web/assets/images/product/9.png') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
-                                    <a href="product-details-1.html" class="thumbnail">
+                                    <a href="#" class="thumbnail">
                                         <img src="{{ asset('/web/assets/images/product/8.png') }}" alt="product">
                                     </a>
                                 </div>

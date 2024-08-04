@@ -45,10 +45,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+                @forelse($blogs as $key => $blog)
                 <!-- single blog list area start -->
-                <div class="single-blog-list-style-one mb--60">
-                    <a href="{{ route('blog.detail', ['slug' => '1']) }}" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/blog/blog1.png') }}" alt="blog-area">
+                <div class="col-12 single-blog-list-style-one mb--60">
+                    <a href="{{ route('blog.detail', ['slug' => $blog->slug]) }}" class="thumbnail">
+                        <img src="{{ asset($blog->featured_image) }}" alt="blog-area">
                     </a>
                     <div class="blog-body">
                         <div class="top">
@@ -58,25 +59,27 @@
                             </div>
                             <div class="single">
                                 <i class="fa-light fa-clock"></i>
-                                <span>01 August, 2024</span>
+                                <span>{{ $blog->created_at->format('d, M Y') }}</span>
                             </div>
                             <div class="single">
                                 <i class="far fa-tags"></i>
-                                <span>Volume 10 </span>
+                                <span>{{ $blog->hashtags }}</span>
                             </div>
                         </div>
                         <div class="inner">
-                            <a href="{{ route('blog.detail', ['slug' => '1']) }}">
-                                <h4 class="title">Investing in Dubai's Thriving Real Estate Market: Opportunities and Insights</h4>
+                            <a href="{{ route('blog.detail', ['slug' => $blog->slug]) }}">
+                                <h4 class="title">{{ $blog->title }}</h4>
                             </a>
                             <p class="disc text-justify">
-                                Dubai has long been a global hub for real estate investment, attracting investors from around the world with its dynamic market, world-class infrastructure, and lucrative opportunities. As the city continues to evolve and grow, the property sector remains a cornerstone of its economy success, offering investors a chance to capitalize on the emirate's remarkable development. In this article, we'll explore the current state of Dubai's real estate landscape, provide insights into the most promising investment areas, and offer a glimpse into the market's future potential.
+                                {!! Str::limit($blog->content, 150) !!}
                             </p>
-                            <a href="{{ route('blog.detail', ['slug' => '1']) }}" class="rts-btn btn-primary">Read More</a>
+                            <a href="{{ route('blog.detail', ['slug' => $blog->slug]) }}" class="rts-btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
                 <!-- single blog list area end -->
+                @empty
+                @endforelse
             </div>
             <div class="col-lg-4 padding-left-sidebar mt_md--50 mt_sm--50">
                 <!-- service left side bar area start -->
@@ -87,27 +90,31 @@
                         <div class="topa-rea">
                             <h4 class="title">Recent Posts</h4>
                         </div>
+                        @forelse($latest as $key => $item)
                         <div class="wized-body">
-                            <div class="recent-post-single">
+                            <div class="recent-post-single mt-3">
                                 <div class="thumbnail">
-                                    <a href="{{ route('blog.detail', ['slug' => '1']) }}"><img src="{{ asset('/web/assets/images/blog/19.jpg') }}" alt="Blog_post"></a>
+                                    <a href="{{ route('blog.detail', ['slug' => $item->slug]) }}"><img src="{{ asset('/web/assets/images/blog/19.jpg') }}" style="height:10%" alt="Blog_post"></a>
                                 </div>
                                 <div class="content-area text-start">
                                     <div class="user">
                                         <i class="fal fa-clock"></i>
-                                        <span>01 August, 2024</span>
+                                        <span>{{ $item->created_at->format('d, M Y') }}</span>
                                     </div>
-                                    <a class="post-title" href="{{ route('blog.detail', ['slug' => '1']) }}">
-                                        <h6 class="title">Investing in Dubai's Thriving Real Estate Market: Opportunities and Insights</h6>
+                                    <a class="post-title" href="{{ route('blog.detail', ['slug' => $item->slug]) }}">
+                                        <h6 class="title">{{ $item->title }}</h6>
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        @empty
+                        @endforelse
                     </div>
                 </div>
                 <!-- service left side bar area end -->
             </div>
         </div>
+
     </div>
 </div>
 @endsection("content")

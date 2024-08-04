@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormSubmitEmail;
+use App\Models\Blog;
 use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -27,12 +28,16 @@ class WebController extends Controller
 
     function blog()
     {
-        return view('web.blog');
+        $blogs = Blog::where('status', 1)->latest()->paginate(10);
+        $latest = Blog::where('status', 1)->latest()->limit(10)->get();
+        return view('web.blog', compact('blogs', 'latest'));
     }
 
     function blogDetail($slug)
     {
-        return view('web.blog-detail');
+        $blog = Blog::where('slug', $slug)->latest()->firstOrFail();
+        $latest = Blog::where('id', '!=', $blog->id)->where('status', 1)->latest()->limit(10)->get();
+        return view('web.blog-detail', compact('blog', 'latest'));
     }
 
     function contact()
