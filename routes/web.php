@@ -19,7 +19,7 @@ Route::middleware(['web'])->group(function () {
     });
 });
 
-Route::prefix('administrator')->group(function () {
+Route::prefix('')->group(function () {
     Route::get('/login', function () {
         return view('admin.user.login');
     })->name('login');
