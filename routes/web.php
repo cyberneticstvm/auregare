@@ -26,7 +26,7 @@ Route::prefix('')->group(function () {
     Route::post('/login', [UserController::class, 'login'])->name('user.login');
 });
 
-Route::prefix('administrator')->middleware(['auth'])->group(function () {
+Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/dash', [UserController::class, 'dashboard'])->name('user.dash');
 
     Route::get('/blog', [BlogController::class, 'index'])->name('admin.blog');

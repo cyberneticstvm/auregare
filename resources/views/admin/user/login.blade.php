@@ -21,7 +21,7 @@
     <main>
         <header class="main-header style-2 navbar">
             <div class="col-brand">
-                <a href="index.html" class="brand-wrap">
+                <a href="#" class="brand-wrap">
                     <img src="{{ asset('/web/assets/images/logo/aurega-logo-transparent.png') }}" class="logo" alt="Aurega Blog">
                 </a>
             </div>
