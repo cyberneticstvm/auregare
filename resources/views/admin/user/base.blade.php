@@ -52,7 +52,7 @@
                         <span class="text">Blogs</span>
                     </a>
                     <div class="submenu">
-                        <a href="{{ route('blog') }}">All Blogs</a>
+                        <a href="{{ route('admin.blog') }}">All Blogs</a>
                     </div>
                 </li>
                 @endauth
