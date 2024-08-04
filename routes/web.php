@@ -18,10 +18,13 @@ Route::middleware(['web'])->group(function () {
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
     });
 });
-Route::get('/login', function () {
-    return view('admin.user.login');
-})->name('login');
-Route::post('/login', [UserController::class, 'login'])->name('user.login');
+
+Route::prefix('administrator')->group(function () {
+    Route::get('/login', function () {
+        return view('admin.user.login');
+    })->name('login');
+    Route::post('/login', [UserController::class, 'login'])->name('user.login');
+});
 
 Route::prefix('administrator')->middleware(['auth'])->group(function () {
     Route::get('/dash', [UserController::class, 'dashboard'])->name('user.dash');
