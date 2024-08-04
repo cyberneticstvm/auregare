@@ -40,7 +40,7 @@
                 </li>
                 @Auth
                 <li class="menu-item has-submenu {{ (in_array(request()->segment(1), ['user'])) ? 'active' : '' }}">
-                    <a class="menu-link" href="/"> <i class="icon material-icons md-person"></i>
+                    <a class="menu-link" href="#"> <i class="icon material-icons md-person"></i>
                         <span class="text">Users</span>
                     </a>
                     <div class="submenu">
@@ -48,7 +48,7 @@
                     </div>
                 </li>
                 <li class="menu-item has-submenu {{ (in_array(request()->segment(1), ['blog'])) ? 'active' : '' }}">
-                    <a class="menu-link" href="/"> <i class="icon material-icons md-comment"></i>
+                    <a class="menu-link" href="#"> <i class="icon material-icons md-comment"></i>
                         <span class="text">Blogs</span>
                     </a>
                     <div class="submenu">
