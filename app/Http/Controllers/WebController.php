@@ -50,6 +50,16 @@ class WebController extends Controller
         return view('web.privacy');
     }
 
+    public function sitemap()
+    {
+        return response()->view('web.sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function robots()
+    {
+        return response()->view('web.robots')->header('Content-Type', 'text/plain');
+    }
+
     function refreshCaptcha()
     {
         return response()->json(['captcha' => captcha_img('mini')]);

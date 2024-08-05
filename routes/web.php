@@ -16,6 +16,8 @@ Route::middleware(['web'])->group(function () {
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
         Route::get('/refresh/captcha', 'refreshCaptcha')->name('refresh.captcha');
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
+        Route::get('/sitemap.xml', 'sitemap')->name('sitemap');
+        Route::get('/robots.txt', 'robots')->name('robots');
     });
 });
 
