@@ -50,7 +50,7 @@
                             <img src="{{ asset('/web/assets/images/about/02.png') }}" alt="about">
                             <span class="pre-title">CEO</span>
                         </div>
-                        <h2 class="title">Mr. Ashraf M. Rahman </h2>
+                        <h5 class="title">Mr. Ashraf M. Rahman </h5>
                     </div>
                     <p class="disc text-justify">
                         Mr. Ashraf M. Rahman brings over two decades of experience to the real estate industry. Beginning his career in 1998 and managing $90.7 million in investment portfolios for high-net-worth individuals, he has honed his expertise in strategic financial leadership.<br />
@@ -73,7 +73,7 @@
                             <img src="{{ asset('/web/assets/images/about/02.png') }}" alt="about">
                             <span class="pre-title">Director</span>
                         </div>
-                        <h2 class="title">Mr. Raais Khan </h2>
+                        <h5 class="title">Mr. Raais Khan </h5>
                     </div>
                     <p class="disc text-justify">
                         Mr. Raais Khan is a seasoned real estate professional with over 30 years of experience, including senior roles in investment banking at Lloyds Bank and Nikko Securities. He has a proven track record in real estate and business consultancy across the Middle East.<br />
