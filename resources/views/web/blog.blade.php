@@ -71,7 +71,7 @@
                                 <h4 class="title">{{ $blog->title }}</h4>
                             </a>
                             <p class="disc text-justify">
-                                {!! Str::limit($blog->content, 150) !!}
+                                {!! Str::limit($blog->content, 500) !!}
                             </p>
                             <a href="{{ route('blog.detail', ['slug' => $blog->slug]) }}" class="rts-btn btn-primary">Read More</a>
                         </div>

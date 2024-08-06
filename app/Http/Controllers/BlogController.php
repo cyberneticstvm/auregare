@@ -55,7 +55,7 @@ class BlogController extends Controller
         $input['created_by'] = $request->user()->id;
         $input['updated_by'] = $request->user()->id;
         Blog::create($input);
-        return redirect()->route('blog')->with("success", "Blog created successfully!");
+        return redirect()->route('admin.blog')->with("success", "Blog created successfully!");
     }
 
     /**
@@ -100,7 +100,7 @@ class BlogController extends Controller
         endif;
         $blog = Blog::findOrFail($id);
         $blog->update($input);
-        return redirect()->route('blog')->with("success", "Blog updated successfully!");
+        return redirect()->route('admin.blog')->with("success", "Blog updated successfully!");
     }
 
     /**
