@@ -26,6 +26,11 @@ class WebController extends Controller
         return view('web.about');
     }
 
+    function team()
+    {
+        return view('web.team');
+    }
+
     function blog()
     {
         $blogs = Blog::where('status', 1)->latest()->paginate(10);

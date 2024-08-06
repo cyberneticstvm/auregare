@@ -4,6 +4,7 @@
         <ul class="mainmenu metismenu" id="mobile-menu-active">
             <li><a href="{{ route('index') }}">Home</a></li>
             <li><a href="{{ route('about') }}">About Us</a></li>
+            <li><a href="{{ route('team') }}">Team</a></li>
             <li><a href="{{ route('property') }}">Property</a></li>
             <li><a href="{{ route('blog') }}">Blog</a></li>
             <li><a href="{{ route('contact') }}">Contact Us</a></li>
