@@ -62,7 +62,7 @@ class WebController extends Controller
 
     function refreshCaptcha()
     {
-        return response()->json(['captcha' => captcha_img('mini')]);
+        return response()->json(['captcha' => captcha_img('flat')]);
     }
 
     function contactSubmit(Request $request): RedirectResponse

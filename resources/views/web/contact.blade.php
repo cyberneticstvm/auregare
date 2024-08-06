@@ -70,7 +70,7 @@
                 @endif
                 <form action="{{ route('contact.submit') }}" class="contact-form-conatct-page" method="post">
                     @csrf
-                    <p class="top-contact mb--20">Contac Form</p>
+                    <p class="top-contact mb--20">Contact Form</p>
                     <input type="text" name="name" placeholder="Your name" value="{{ old('name') }}" required>
                     @error('name')
                     <small class="text-danger">{{ $errors->first('name') }}</small>
@@ -92,10 +92,10 @@
                     <small class="text-danger">{{ $errors->first('captcha') }}</small>
                     @enderror
                     <div class="captcha mt-3">
-                        <span>{!! captcha_img('mini') !!}</span>
-                        <button type="button" class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></button>
+                        <span>{!! captcha_img('flat') !!}</span>
+                        <a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></a>
                     </div>
-                    <button class="rts-btn btn-primary mt--30 btn-submit" type="submit">Submit</button>
+                    <button class="rts-btn btn-primary mt--30 btn-submit" type="submit">Submit&nbsp;&nbsp; <i class="fa-regular fa-arrow-right"></i></button>
                 </form>
             </div>
         </div>

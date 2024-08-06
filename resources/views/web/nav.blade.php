@@ -12,11 +12,11 @@
                         <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="{{ route('property') }}">Property</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>
-                        <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                        <!--<li><a href="{{ route('contact') }}">Contact Us</a></li>-->
                     </ul>
                 </nav>
             </div>
-            <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact <i class="fa-regular fa-arrow-right"></i></a>
+            <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Us<i class="fa-regular fa-arrow-right"></i></a>
             <div class="action-area">
                 <div class="menu-icon" id="menu-btn">
                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -20,7 +20,7 @@
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Us <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -46,7 +46,7 @@
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Us <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -72,7 +72,7 @@
                                         We believe that a well-designed space has the power to transform lives, evoke in emotions,
                                         and enhance experiences. Our team of talented designers.
                                     </p>
-                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
+                                    <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Us <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
                                 <!-- banner content two inner area end -->
                             </div>
@@ -316,7 +316,7 @@
                     </div>
                     <!-- about short contact area start -->
                     <div class="about-short-contact-area mt--50">
-                        <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Now <i class="fa-regular fa-arrow-right"></i></a>
+                        <a href="{{ route('contact') }}" class="rts-btn btn-border">Contact Us <i class="fa-regular fa-arrow-right"></i></a>
                         <div class="contact-information">
                             <i class="fa-solid fa-phone"></i>
                             <div class="information">
@@ -359,6 +359,33 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <g>
+                                                <line class="c" x1="21.25" y1="18.925" x2="24.75" y2="17" />
+                                                <line class="c" x1="24.75" y1="17" x2="24.75" y2="31" />
+                                            </g>
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Decades of Experience</h6>
                                 <p class="disc text-justify">
@@ -371,6 +398,30 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <path class="c" d="m19.4198,21.6667c0-2.5926,2.0741-4.6667,4.4938-4.6667s4.6667,2.0741,4.6667,4.6667c0,1.2099-.5185,2.4198-1.3827,3.284-1.9012,1.5556-7.7778,6.0494-7.7778,6.0494h9.1605" />
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Comprehensive Services</h6>
                                 <p class="disc text-justify">
@@ -383,6 +434,33 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <g>
+                                                <path class="c" d="m25.1375,24c1.925,0,3.5,1.575,3.5,3.5h0c0,1.925-1.575,3.5-3.5,3.5h-1.4c-2.45,0-3.325-.35-4.375-1.225" />
+                                                <path class="c" d="m19.3625,18.225c1.05-.875,2.1-1.225,4.375-1.225h1.4,0c1.925,0,3.5,1.575,3.5,3.5h0c0,1.925-1.575,3.5-3.5,3.5h-3.5" />
+                                            </g>
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Market Knowledge</h6>
                                 <p class="disc text-justify">
@@ -395,6 +473,30 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <polyline class="c" points="26.8875 31 26.8875 17 19.3625 26.45 28.6375 26.45" />
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Personalized Approach
                                 </h6>
@@ -408,6 +510,30 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <path class="c" d="m19.3625,29.775c1.05.875,1.925,1.225,4.2,1.225h.525c2.45,0,4.55-2.1,4.55-4.55h0c0-2.45-2.1-4.55-4.55-4.55h-4.725v-4.9h9.275" />
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Trusted Advisors
                                 </h6>
@@ -421,6 +547,33 @@
                     <div class="col-lg-4 rts-slide-up">
                         <!-- single choose us area -->
                         <div class="single-choose-style-two">
+                            <div class="icon">
+                                <svg width="100px" height="100px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                    <g id="SVGRepo_iconCarrier">
+                                        <defs>
+                                            <style>
+                                                .c {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <g id="a">
+                                            <g>
+                                                <circle class="c" cx="24" cy="26.3333" r="4.6667" />
+                                                <path class="c" d="m28.1482,18.7284c-.6914-1.037-1.9012-1.7284-3.8025-1.7284h-.3457c-2.5926,0-4.6667,2.0741-4.6667,4.6667v4.6667" />
+                                            </g>
+                                        </g>
+                                        <g id="b">
+                                            <path class="c" d="m38.5,5.5h-4v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-8v1c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5v-1h-3c-2.2091,0-4,1.7908-4,4v29c0,2.2091,1.7909,4,4,4h29c2.2092,0,4-1.7909,4-4V9.5c0-2.2092-1.7908-4-4-4Z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
                             <div class="right-content">
                                 <h6 class="title">Proven Track Record
                                 </h6>

@@ -1,5 +1,6 @@
 $(function () {
     "use strict"
+    
     $(".btn-refresh").click(function () {
         $.ajax({
             type: 'GET',
