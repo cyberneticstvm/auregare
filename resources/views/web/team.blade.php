@@ -48,7 +48,7 @@
                     <div class="title-style-left">
                         <div class="pre-title-area">
                             <img src="{{ asset('/web/assets/images/about/02.png') }}" alt="about">
-                            <span class="pre-title">CEO</span>
+                            <span class="pre-title">Promoter</span>
                         </div>
                         <h5 class="title">Mr. Ashraf M. Rahman </h5>
                     </div>
@@ -71,7 +71,7 @@
                     <div class="title-style-left">
                         <div class="pre-title-area">
                             <img src="{{ asset('/web/assets/images/about/02.png') }}" alt="about">
-                            <span class="pre-title">Director</span>
+                            <span class="pre-title">Promoter</span>
                         </div>
                         <h5 class="title">Mr. Raais Khan </h5>
                     </div>
