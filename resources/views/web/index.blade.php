@@ -193,7 +193,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="{{ route('contact') }}" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/05.jpg') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/05.webp') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -251,7 +251,7 @@
                 <!-- ingle srevice area start -->
                 <div class="singe-serice-style-two">
                     <a href="#" class="thumbnail">
-                        <img src="{{ asset('/web/assets/images/service/04.jpg') }}" alt="service">
+                        <img src="{{ asset('/web/assets/images/service/04.webp') }}" alt="service">
                     </a>
                     <div class="body">
                         <div class="wrapper">
@@ -288,7 +288,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="thumbnail-image">
-                    <img src="{{ asset('/web/assets/images/about/15.jpg') }}" alt="about">
+                    <img src="{{ asset('/web/assets/images/about/15.webp') }}" alt="about">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -308,7 +308,7 @@
                         <strong>Mission:</strong> Our mission is to provide unparalleled real estate advisory services, leveraging our deep market knowledge and personalized approach to empower clients in making informed property investment decisions. We strive to exceed expectations through professionalism, transparency, and tailored solutions that drive success and satisfaction.
                     </p>
                     <div class="about-in-image rts-reveal-one">
-                        <img class="rts-reveal-image-one" src="{{ asset('/web/assets/images/about/04.jpg') }}" alt="about">
+                        <img class="rts-reveal-image-one" src="{{ asset('/web/assets/images/about/04.webp') }}" alt="about">
                     </div>
                     <div class="bottom-image-title mt--20">
                         <img src="{{ asset('/web/assets/images/about/05.png') }}" alt="shape">
@@ -652,21 +652,21 @@
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="#" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/7.png') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/7.webp') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="#" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/9.png') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/9.webp') }}" alt="product">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-product-wrapper-two">
                                     <a href="#" class="thumbnail">
-                                        <img src="{{ asset('/web/assets/images/product/8.png') }}" alt="product">
+                                        <img src="{{ asset('/web/assets/images/product/8.webp') }}" alt="product">
                                     </a>
                                 </div>
                             </div>

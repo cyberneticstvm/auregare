@@ -14537,7 +14537,7 @@ xclip
   display: block;
   padding: 28px 0 23px 0;
   color: #30373E;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 .nav-area-center nav ul li:hover::after {
@@ -15293,15 +15293,15 @@ a {
 }
 
 .swiper-banner-two-wrapper .banner-bg-2 {
-  background-image: url(../images/banner/02.jpg);
+  background-image: url(../images/banner/02.webp);
   height: 920px;
 }
 .swiper-banner-two-wrapper .banner-bg-3 {
-  background-image: url(../images/banner/19.jpg);
+  background-image: url(../images/banner/19.webp);
   height: 920px;
 }
 .swiper-banner-two-wrapper .banner-bg-4 {
-  background-image: url(../images/banner/20.jpg);
+  background-image: url(../images/banner/3.webp);
   height: 920px;
 }
 @media only screen and (max-width: 767px) {
@@ -23333,7 +23333,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
 
 .cta-area-two {
   height: 500px;
-  background-image: url(../images/cta/01.jpg);
+  background-image: url(../images/cta/01.webp);
   background-attachment: fixed;
 }
 .cta-area-two .vedio-icone span {
