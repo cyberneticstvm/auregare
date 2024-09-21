@@ -2,24 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Blog;
-use App\Models\Category;
-use App\Models\Comment;
+use App\Models\Property;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-class BlogController extends Controller
+class PropertyController extends Controller
 {
+    /**
+     * Display a listing of the resource.
+     */
     public function index()
     {
-        $blogs = Blog::latest()->get();
-        return view('admin.blog.index', compact('blogs'));
-    }
-
-    public function comments(string $id)
-    {
-        $comments = Comment::where('blog_id', decrypt($id))->latest()->get();
-        return view('admin.blog.comments', compact('comments'));
+        $properties = Property::latest()->get();
+        return view('admin.property.index', compact('properties'));
     }
 
     /**
@@ -27,8 +21,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        $categories = Category::all();
-        return view('admin.blog.create', compact('categories'));
+        return view('admin.property.create');
     }
 
     /**
@@ -37,8 +30,8 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'content' => 'required',
             'title' => 'required',
+            'slug' => 'required|unique:properties,slug',
             'status' => 'required',
             'type' => 'required',
             'category' => 'required',
@@ -47,15 +40,13 @@ class BlogController extends Controller
         $input = $request->all();
         $input['slug'] = strtolower(str_replace(' ', '-', $request->slug));
         if ($request->file('featured_image')) :
-            $path = 'blog/featured_images';
+            $path = 'property/featured_images';
             $fname = time() . '_' . $request->file('featured_image')->getClientOriginalName();
             $request->file('featured_image')->storeAs($path, $fname, 'public');
             $input['featured_image'] = '/storage/' . $path . '/' . $fname;
         endif;
-        $input['created_by'] = $request->user()->id;
-        $input['updated_by'] = $request->user()->id;
-        Blog::create($input);
-        return redirect()->route('admin.blog')->with("success", "Blog created successfully!");
+        Property::create($input);
+        return redirect()->route('admin.property')->with("success", "Property created successfully!");
     }
 
     /**
@@ -71,9 +62,8 @@ class BlogController extends Controller
      */
     public function edit(string $id)
     {
-        $blog = Blog::findOrFail(decrypt($id));
-        $categories = Category::all();
-        return view('admin.blog.edit', compact('blog', 'categories'));
+        $property = Property::findOrFail(decrypt($id));
+        return view('admin.property.edit', compact('property'));
     }
 
     /**
@@ -82,8 +72,8 @@ class BlogController extends Controller
     public function update(Request $request, string $id)
     {
         $request->validate([
-            'content' => 'required',
             'title' => 'required',
+            'slug' => 'required|unique:properties,slug,' . $id,
             'status' => 'required',
             'type' => 'required',
             'category' => 'required',
@@ -91,16 +81,15 @@ class BlogController extends Controller
         ]);
         $input = $request->all();
         $input['slug'] = strtolower(str_replace(' ', '-', $request->slug));
-        $input['updated_by'] = $request->user()->id;
         if ($request->file('featured_image')) :
-            $path = 'blog/featured_images';
+            $path = 'property/featured_images';
             $fname = time() . '_' . $request->file('featured_image')->getClientOriginalName();
             $request->file('featured_image')->storeAs($path, $fname, 'public');
             $input['featured_image'] = '/storage/' . $path . '/' . $fname;
         endif;
-        $blog = Blog::findOrFail($id);
-        $blog->update($input);
-        return redirect()->route('admin.blog')->with("success", "Blog updated successfully!");
+        $property = Property::findOrFail($id);
+        $property->update($input);
+        return redirect()->route('admin.property')->with("success", "Property updated successfully!");
     }
 
     /**
@@ -108,7 +97,7 @@ class BlogController extends Controller
      */
     public function destroy(string $id)
     {
-        Blog::findOrFail(decrypt($id))->delete();
-        return redirect()->route('admin.blog')->with("success", "Blog deleted successfully!");
+        Property::findOrFail(decrypt($id))->delete();
+        return redirect()->route('admin.property')->with("success", "Property deleted successfully!");
     }
 }

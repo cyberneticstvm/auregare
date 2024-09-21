@@ -3,6 +3,7 @@
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\PropertyController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(['web'])->group(function () {
@@ -48,6 +49,15 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/user/edit/{id}', [UserController::class, 'edit'])->name('user.edit');
     Route::put('/user/edit/{id}', [UserController::class, 'update'])->name('user.update');
     Route::get('/user/delete/{id}', [UserController::class, 'destroy'])->name('user.delete');
+
+    Route::controller(PropertyController::class)->group(function () {
+        Route::get('/property', 'index')->name('admin.property');
+        Route::get('/property/create', 'create')->name('property.create');
+        Route::post('/property/create', 'store')->name('property.save');
+        Route::get('/property/edit/{id}', 'edit')->name('property.edit');
+        Route::post('/property/edit/{id}', 'update')->name('property.update');
+        Route::get('/property/delete/{id}', 'destroy')->name('property.delete');
+    });
 
     Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');
 });

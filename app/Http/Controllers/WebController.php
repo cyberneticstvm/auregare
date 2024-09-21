@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\ContactFormSubmitEmail;
 use App\Models\Blog;
+use App\Models\Property;
 use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -18,7 +19,8 @@ class WebController extends Controller
 
     function property()
     {
-        return view('web.property');
+        $properties = Property::where('status', 'Active')->latest()->get();
+        return view('web.property', compact('properties'));
     }
 
     function about()

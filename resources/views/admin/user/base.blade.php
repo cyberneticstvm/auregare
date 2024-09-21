@@ -55,6 +55,14 @@
                         <a href="{{ route('admin.blog') }}">All Blogs</a>
                     </div>
                 </li>
+                <li class="menu-item has-submenu {{ (in_array(request()->segment(1), ['property'])) ? 'active' : '' }}">
+                    <a class="menu-link" href="#"> <i class="icon material-icons md-map"></i>
+                        <span class="text">Property</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="{{ route('admin.property') }}">All Properties</a>
+                    </div>
+                </li>
                 @endauth
             </ul>
             <hr>
