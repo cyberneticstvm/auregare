@@ -77,6 +77,13 @@
                             {{ html()->file($name='featured_image')->class('form-control')->required()}}
                         </div>
                         <div class="col-12 mt-3">
+                            <label class="">Images</label> (420px Width X 340px Height, Max size 1MB, Multiple selection enabled)<br>
+                            {{ html()->file($name='images[]')->class('form-control multi_img')->multiple() }}
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div id="multi_img" class="text-center"></div>
+                        </div>
+                        <div class="col-12 mt-3">
                             <label class="req">Status</label><br>
                             {{ html()->select($name='status', $value=array('Active'=>'Active', 'Inactive'=>'Inactive'))->class('form-control')->placeholder('Select Status')->required() }}
                         </div>

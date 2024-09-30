@@ -19,7 +19,7 @@ class WebController extends Controller
 
     function property()
     {
-        $properties = Property::where('status', 'Active')->latest()->get();
+        $properties = Property::where('status', 'Active')->latest()->paginate(15);
         return view('web.property', compact('properties'));
     }
 

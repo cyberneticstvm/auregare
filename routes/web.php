@@ -57,6 +57,8 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
         Route::get('/property/edit/{id}', 'edit')->name('property.edit');
         Route::post('/property/edit/{id}', 'update')->name('property.update');
         Route::get('/property/delete/{id}', 'destroy')->name('property.delete');
+
+        Route::get('/property/image/delete/{id}', 'removeImage')->name('property.image.remove');
     });
 
     Route::get('/logout', [UserController::class, 'logout'])->name('user.logout');

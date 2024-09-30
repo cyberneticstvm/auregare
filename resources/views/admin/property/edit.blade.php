@@ -77,6 +77,20 @@
                             {{ html()->file($name='featured_image')->class('form-control')}}
                         </div>
                         <div class="col-12 mt-3">
+                            <label class="">Images</label> (420px Width X 340px Height, Max size 1MB, Multiple selection enabled)<br>
+                            {{ html()->file($name='images[]')->class('form-control multi_img')->multiple() }}
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div id="multi_img" class="text-center"></div>
+                        </div>
+                        @forelse($images as $key => $item)
+                        <div class="col-2 imgs text-center">
+                            <img src="{{ url($item->name) }}" alt="{{ $item->id }}" />
+                            <a class="mt-3 text-danger dlt" href="{{ route('property.image.remove', encrypt($item->id)) }}">Remove</a>
+                        </div>
+                        @empty
+                        @endforelse
+                        <div class="col-12 mt-3">
                             <label class="req">Status</label><br>
                             {{ html()->select($name='status', $value=array('Active'=>'Active', 'Inactive'=>'Inactive'), $property->status)->class('form-control')->placeholder('Select Status')->required() }}
                         </div>
