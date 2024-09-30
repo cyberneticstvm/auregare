@@ -30,11 +30,11 @@
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ url($property->featured_image) }}" class="d-block w-100" alt="{{ $property->title }}">
+                                    <img src="{{ asset($property->featured_image) }}" class="d-block w-100" alt="{{ $property->title }}">
                                 </div>
                                 @foreach($property->images as $key1 => $image)
                                 <div class="carousel-item">
-                                    <img src="{{ url($image->name) }}" class="d-block w-100" alt="{{ $property->title }}">
+                                    <img src="{{ asset($image->name) }}" class="d-block w-100" alt="{{ $property->title }}">
                                 </div>
                                 @endforeach
                             </div>
