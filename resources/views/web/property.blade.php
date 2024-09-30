@@ -27,7 +27,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card">
                     <div class="card-header">
-                        <h2 class="title mt-1">{{ $property->title }}</h2>
+                        <h4 class="title mt-1">{{ $property->title }}</h4>
                         <div id="carouselExampleControls_{{$key}}" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
