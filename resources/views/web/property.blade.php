@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <p class="disc text-dark p-3">{{ $property->description }}</p>
+                        <p class="text-dark p-3">{{ $property->description }}</p>
                     </div>
                     <div class="card-footer">
                         <div class="row">
